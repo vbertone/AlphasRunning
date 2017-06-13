@@ -1,0 +1,333 @@
+%================================================================
+% H1 paper
+%================================================================
+\RequirePackage{lineno}
+\documentclass[12pt]{article}
+
+
+\usepackage{epsfig}
+\usepackage{hhline}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{xfrac}
+\usepackage{paralist} % compactitem
+\usepackage{caption}
+%\captionsetup[figure]{font=footnotesize,labelfont=footnotesize}
+\captionsetup{font=small,labelfont=small}
+
+\usepackage{bm} % 'bold' math symbols (better use \usepackage{newtxtext,newtxmath}, if available on latex distribution)
+\usepackage{acronym}
+
+%%%%%%%%%%%%% Comment the next two lines to remove the line numbering
+\usepackage[]{lineno}
+\linenumbers
+%%%%%%%%%%%%%%
+
+\usepackage{hyperref} % has to be last package loaded
+\hypersetup{colorlinks=true, urlcolor=blue}
+\usepackage{cite} % DB: enable also clickable references (must be loaded after hyperref)
+\hypersetup{
+  colorlinks,
+  citecolor=blue,
+  linkcolor=red,
+  urlcolor=blue
+  }
+
+
+%%%%%%%%%%%%%% H1 preliminary
+%\renewcommand{\topfraction}{1.0}
+%\renewcommand{\bottomfraction}{1.0}
+%\renewcommand{\textfraction}{0.0}
+%\renewcommand{\arraystretch}{1.3} % make lines a bit larger for tables 
+%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%% H1 paper layout %%%%%%%%%%%%%%
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\renewcommand{\arraystretch}{1.25} % make lines a bit larger for tables
+%\newlength{\dinwidth}
+%\newlength{\dinmargin}
+%\setlength{\dinwidth}{21.0cm}
+%\textheight23.5cm \textwidth16.0cm
+%\setlength{\dinmargin}{\dinwidth}
+%\setlength{\unitlength}{1mm}
+%\addtolength{\dinmargin}{-\textwidth}
+%\setlength{\dinmargin}{0.5\dinmargin}
+%\oddsidemargin -1.0in
+%\addtolength{\oddsidemargin}{\dinmargin}
+%\setlength{\evensidemargin}{\oddsidemargin}
+%\setlength{\marginparwidth}{0.9\dinmargin}
+\marginparsep 8pt \marginparpush 5pt
+\topmargin -42pt
+\headheight 12pt
+\headsep 30pt \footskip 24pt
+\parskip 3mm plus 2mm minus 2mm
+
+% do not indent first line of paragraph!
+%\setlength{\parindent}{0pt}
+\usepackage{parskip}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%% contains utf-8, see: http://inspirehep.net/info/faq/general#utf8
+%%% add \usepackage[utf8]{inputenc} to your latex preamble
+\usepackage[utf8]{inputenc}
+%\bibliographystyle{plain}%Choose a bibliograhpic style          
+\bibliographystyle{utphys}%Choose a bibliograhpic style          
+
+\newlength{\dinwidth}
+\newlength{\dinmargin}
+\setlength{\dinwidth}{21.0cm}
+\textheight23.5cm \textwidth16.0cm
+\setlength{\dinmargin}{\dinwidth}
+\setlength{\unitlength}{1mm}
+\addtolength{\dinmargin}{-\textwidth}
+\setlength{\dinmargin}{0.5\dinmargin}
+\oddsidemargin -1.0in
+\addtolength{\oddsidemargin}{\dinmargin}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\marginparwidth}{0.9\dinmargin}
+\marginparsep 8pt \marginparpush 5pt
+\topmargin -42pt
+\headheight 12pt
+\headsep 30pt \footskip 24pt
+\parskip 3mm plus 2mm minus 2mm
+\setlength{\parindent}{0.0cm} 
+\newcommand{\picob}{\mbox{{\rm ~pb}}}
+\newcommand{\QQ}  {\mbox{${Q^2}$}}
+
+\newcommand{\NNLOJET}{NNLO\protect\scalebox{0.8}{JET}\xspace}
+
+%===============================title page=============================
+
+% Some useful tex commands
+%
+%\def\GeV{\hbox{$\;\hbox{\rm GeV}$}}
+%\def\MeV{\hbox{$\;\hbox{\rm MeV}$}}
+%\def\TeV{\hbox{$\;\hbox{\rm TeV}$}}
+
+\newcommand{\pb}{\rm pb}
+\newcommand{\cm}{\rm cm}
+\newcommand{\hdick}{\noalign{\hrule height1.4pt}}
+
+\begin{document}
+\pagestyle{empty}
+
+\newcommand{\GeVsq}{\ensuremath{\mathrm{GeV}^2} }
+\newcommand{\GeV}{\ensuremath{\mathrm{GeV}} }
+\newcommand{\pt}{\ensuremath{P_{T}}}
+\newcommand{\PP}{\ensuremath{\mathcal{P}}}
+%\newcommand{\ptAvg}{\ensuremath{\langle P_T^{jet}\rangle}}
+\newcommand{\Qsq}{\ensuremath{Q^{2}}}
+%% unfolding
+\newcommand{\chisq}{\ensuremath{\chi^{2}}}
+\newcommand{\chisqA}{\ensuremath{\chi_{\rm A}^{2}}}
+\newcommand{\chisqL}{\ensuremath{\chi_{\rm L}^{2}}}
+\newcommand{\ndf}{\ensuremath{n_{\rm dof}}}
+\newcommand{\A}{\ensuremath{\bm{A}}}
+\newcommand{\V}{\ensuremath{\bm{V}}}
+\newcommand{\B}{\ensuremath{\bm{B}}}
+\newcommand{\J}{\ensuremath{\bm{J}}}
+\newcommand{\N}{\ensuremath{\bm{N}}}
+\newcommand{\LL}{\ensuremath{\bm{L}}}
+
+\newcommand{\etajet}{\ensuremath{\eta_{\rm lab}^{\rm jet}}}
+\newcommand{\ptjet}{\ensuremath{P_{\rm T}^{\rm jet}}}
+\newcommand{\meanpt}{\ensuremath{\langle P_{\rm T} \rangle}}
+\newcommand{\etalab}{\ensuremath{\eta_{\rm lab}^{\rm jet}}}
+\newcommand{\Mjj}{\ensuremath{m_{12}}}
+\newcommand{\meanptdi}{\ensuremath{\langle P_{\mathrm{T}} \rangle_{2}}\xspace}
+\newcommand{\meanpttri}{\ensuremath{\langle P_{\mathrm{T}} \rangle_{3}}\xspace}
+\newcommand{\mz}{\ensuremath{m_{\rm Z}}\xspace}
+\newcommand{\as}{\ensuremath{\alpha_{\rm s}}\xspace}
+\newcommand{\asmz}{\ensuremath{\as(\mz)}\xspace}
+\newcommand{\etal}{{\it{et al.}}}
+\newcommand{\mur}{\ensuremath{\mu_{R}}\xspace}
+\newcommand{\muf}{\ensuremath{\mu_{F}}\xspace}
+\newcommand{\murf}{\ensuremath{\mu_{R/F}}\xspace}
+\newcommand{\asmur}{\ensuremath{\alpha_{\rm s}(\mur)}\xspace}
+\newcommand{\chad}{\ensuremath{c_{\rm had}}\xspace}
+\newcommand{\ord}{\ensuremath{\mathcal{O}}\xspace}
+
+
+% % % Journal macro
+% % \def\Journal#1#2#3#4{{#1}~{\bf #2} (#3) #4}
+% % %\def\NCA{\em Nuovo Cimento}
+% % %\def\NIM{\em Nucl. Instrum. Methods}
+% % %\def\NIMA{{\em Nucl. Instrum. Methods} {\bf A}}
+% % %\def\NPB{{\em Nucl. Phys.}   {\bf B}}
+% % %\def\PLB{{\em Phys. Lett.}   {\bf B}}
+% % %\def\PRL{\em Phys. Rev. Lett.}
+% % %\def\PRD{{\em Phys. Rev.}    {\bf D}}
+% % %\def\ZPC{{\em Z. Phys.}      {\bf C}}
+% % %\def\EJC{{\em Eur. Phys. J.} {\bf C}}
+% % %\def\CPC{\em Comp. Phys. Commun.}
+% % %
+% % \def\NPB{Nucl. Phys.~}
+% % \def\PRL{Phys. Rev. Lett.~}
+% % \def\EPJC{Eur. Phys. J.~}
+% % \def\PLB{Phys. Lett.~}
+% % \def\NIM{Nucl. Instrum. Meth.~}
+% % \def\PRD{Phys. Rev.~}
+% % \def\JHEP{JHEP~}
+% % \def\PROC{Conf. Proc.~}
+% % \def\CPC{Comp. Phys. Commun.~}
+% % 
+
+
+\newcommand{\sHat}{\ensuremath{\hat\sigma}}
+\newcommand{\asA}{\ensuremath{\alpha_s^A}}
+\newcommand{\asB}{\ensuremath{\alpha_s^B}}
+\newcommand{\asC}{\ensuremath{\alpha_s^C}}
+\newcommand{\asD}{\ensuremath{\alpha_s^D}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% title page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{1cm}
+\begin{center}
+\begin{Large}
+
+{\bf     \boldmath
+  PDFs and $\alpha_s(m_Z)$
+}
+\end{Large}
+\end{center}
+\vspace{0.5cm}
+
+\section{Cross section definition}
+In $ep$ the QCD cross section is calculated as
+\begin{align}
+  \sigma^{(0)} &= \sHat(\muf,\asA) \otimes f(\muf).
+\label{eq:sig0}
+\end{align}
+with $\sHat(\muf,\asA)$ being the perturbatively calculable hard coefficients
+and $f(\muf)$ being the PDFs at the factorisation scale \muf.
+The superscript `$A$' to \as\ denotes that the value of \asmz\ may become different than in other parts of the calculation.
+
+Following notes by Valerio, the DGLAP evolution can be written
+in terms of the evolution operator $\Gamma$. 
+This allows to obtain a PDF at any other scale \muf\ obtained from an initial 1-dimensional $x$-dependent PDF $f(\mu_0)$ as
+\begin{equation}
+  f(\muf,\asD) = \Gamma(\muf,\mu_0,\asD) \otimes f
+\end{equation}
+The PDF $f$ was determined using a value of \asD. One thus may write: $f = f(\mu_0,\asD)$.
+
+The DGLAP evolution operator is defined (following Valerios notes) as:
+\begin{align}
+  \Gamma(\mu_0,\muf,\asD)  = \exp\left[ \int_{\ln\mu^2_0}^{\ln\muf^2} P(\alpha_s(\mu^\prime) ) d\ln\mu^{\prime2} \right]
+\end{align}
+
+
+
+\section{Current fitting approach using \boldmath\muf-shift}
+In the currently applied fitting approach, using the \muf-shift formalism, the cross section
+prediction is obtained as:
+\begin{align}
+  \sigma^{(I)} &= \sHat(\muf,\asA) \otimes \gamma(\muf,\asA,\asD) \otimes f(\muf,\asD).
+\label{eq:current}
+\end{align}
+The `\muf-shift' operator is given by (following notes by Valerio):
+\begin{align}
+  \gamma(\muf,\asA,\asD) = \exp\left[\int_{\asD}^{\asA} \frac{P(\alpha_s^\prime)}{\beta(\alpha_s^\prime) } d\alpha_s^\prime \right]. 
+\end{align}
+The cross section in eq.~\ref{eq:current} implies that the PDF is known for a given
+value of \asD\ at all scales \muf, and herewith we translate it to the same value
+\asA\ as used for the matrix elements.
+
+
+However, the scale-dependence of the employed PDF, is not determined from data, but taken from
+the DGLAP evolution. 
+The PDF fitting groups determine only a PDF at $\mu_0$ and it is evolved to \muf. Thus 
+equation~\ref{eq:current} can be rewritten as,
+\begin{align}
+  \sigma^{(I)}  &= \sHat(\muf,\asA) \otimes \gamma(\muf,\asA,\asD) \otimes \Gamma(\mu_0,\muf,\asD) \otimes f,
+\end{align}
+where again the PDF $f$ was determined a constant value $\mu_0$ and $\asD$ ($f=f(\mu_0,\asD)$).
+
+Therefore, the two operators $\Gamma$ and $\gamma$ can be commonly expressed as:
+\begin{align}
+  \gamma^{(I)} :&= \gamma(\muf,\asA,\asD) \otimes \Gamma(\mu_0,\muf,\asD)\\
+                &=  \rm(todo...~(help~needed)).
+\end{align}
+
+
+
+
+\section{Alternative}
+\subsection{Formalism}
+In order to enforce consistency of the values of \as\ in all components of the calculation, one may introduce
+an arbitrary scale $\mu_0^\prime$ and write:
+\begin{align}
+  \sigma^{(II)} &= \sHat(\muf,\asA) \otimes \Gamma(\mu_0^\prime,\muf,\asA) \otimes f(\mu_0^\prime,\asD).
+\label{eq:alternative}
+\end{align}
+Here, we take the PDF $f(\mu_0^\prime,\asD)$ from the PDF fitting groups, but not at the starting scale as they do, but
+at another (higher) scale $\mu_0^\prime$. By doing so, we generate our own PDF $\tilde{f}(\muf,\asA)$, which is evolved with a value of $\asmz=\asA$ to all scales \muf.
+By choosing the value of $\mu_0^\prime$ carefully, the new PDF $\tilde{f}(\muf,\asA) = \Gamma(\mu_0^\prime,\muf,\asA) \otimes f(\mu_0^\prime,\asD)$ 
+will still be able to describe the bulk of the HERA inclusive DIS data.
+A good value  of $\mu_0^\prime$ is expected to be around $20-30\,\GeV$, but depends of course
+on the lever arm of low-$\mu$ and high-$\mu$ data, which is included in the PDF fit.
+Such, the values of \asA\ and \asD\ can become identical, and full consistency is obtained.
+Since no PDF-refitting is required, we do not introduce ambiguities that are introduced when 
+refitting the PDFs with different values of \asD.
+
+\subsection{Implementation}
+The operator $\Gamma(\mu_0^\prime,\muf,\asA)$, can also be expressend in terms of the factor $\sqrt{(K^\prime)}$ as,
+\begin{align}
+  \log(K^\prime) = \rm... [help~needed]
+\label{eq:kappaprime}
+\end{align}
+and therefore, we can take the evolution from the LHAPDF grids.
+
+\subsection{Discussion}
+When attempting to express equation~\ref{eq:alternative} in terms of the PDF-fitter's initial-scale PDF,
+one re-writes equation~\ref{eq:alternative} as:
+\begin{align}
+  \sigma^{(II)} &= \sHat(\muf,\asA) \otimes \Gamma(\mu_0^\prime,\muf,\asA) \otimes \Gamma(\mu_0,\mu_0^\prime,\asD) \otimes f(\mu_0,\asD).
+\end{align}
+and we can define:
+\begin{align}
+  \gamma^{(II)} :&= \Gamma(\mu_0^\prime,\muf,\asA) \otimes \Gamma(\mu_0,\mu_0^\prime,\asD) \\
+                 &= \rm(todo... (help~needed)).
+\end{align}
+
+We see, that the operators $\gamma^{(I)}$ and $\gamma^{(II)}$ differ by (or not...) [help~needed].
+
+
+
+\section{General discussion}
+It is now interesting to study the case, where one chooses the factorisation scale to be constant,
+i.e.\ not as a `dynamical' scale choice but for instance $\muf=\mu_0^\prime$ (which may be for instance $\mu_0^\prime=20\,\GeV$).
+In this case, the evolution operator disappears, and the cross section is simply expressed as 
+initially requested by the factorisation theorem similar to eq.~\ref{eq:sig0} as:
+\begin{align}
+  \sigma^{(III)} &= \sHat(\mu_0^\prime,\asA) \otimes f(\mu_0^\prime,\asD).
+  \label{eq:sigIII}
+\end{align}
+As a consequence, large logarithms appear, which are no longer absorbed into the PDF (you know better what happens...).
+
+This raises the questions:
+\begin{itemize}
+  \item What exactly happens here, and what happens with the ``log's'' in the case of equation~\ref{eq:sigIII} in comparision to eq.~\ref{eq:alternative} ? Do we obtain a prediction formally of order NNLO+NNLL(ISR) ??
+  \item In case of renormalisation, we also have to introduce a fixed value, and we have the running. Is there some analogy of the formalisms?
+  \item Does this imply, that if we have a running coupling \asmur, i.e.\ we choose a `dynamic' renormalisation scale,
+    at the same time we are obliged to introduce the evolution operator into the cross section definition?
+  \item What happens, if we choose $\mur=\muf=mz$, where we don't have a running \asmur\ nor a `running' PDF?
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
