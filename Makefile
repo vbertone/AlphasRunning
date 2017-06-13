@@ -3,6 +3,8 @@ default:
 	pdflatex AlphasRunning.tex
 	#bibtex   AlphasRunning
 	#pdflatex AlphasRunning.tex
+
+notes:
 	pdflatex notes.tex && notes.tex
 
 clean:
