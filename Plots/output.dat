@@ -1,0 +1,2058 @@
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+         3.6964e-05  8.1301e-04  1.2394e-03  1.9783e-03  3.4833e-03  5.9000e-03  2.1125e-02  5.4255e-02  7.5980e-02  1.0569e-01  3.0416e-01  5.6566e-01  8.4876e-01  1.2752e+00  1.4670e+00  1.9290e+00  2.7152e+00  8.6246e+00
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1063.38 FROM MIGRAD    STATUS=CONVERGED    5762 CALLS        5763 TOTAL
+                     EDM=0.000151373    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  PDFQ0_HERA.gB   6.09590e-02   1.15523e-01   1.03502e-04   1.60094e-02
+   2  PDFQ0_HERA.gC   7.07521e+00   2.33364e+00   1.20397e-03   1.29091e-02
+   3  PDFQ0_HERA.gD   5.27514e+00   5.90801e+00   3.68113e-03  -2.40519e-03
+   4  PDFQ0_HERA.uvB   9.33992e-01   5.79620e-02   4.86279e-05  -6.78682e-01
+   5  PDFQ0_HERA.uvC   5.00412e+00   3.62679e-01   2.89461e-04   3.82285e-02
+   6  PDFQ0_HERA.uvE   8.25574e+00   2.40226e+00   2.16629e-03  -7.70864e-03
+   7  PDFQ0_HERA.dvB   5.91117e-01   2.81972e-01   1.50660e-04  -1.49474e-01
+   8  PDFQ0_HERA.dvC   2.21300e+00   8.43228e-01   8.58825e-04   1.85037e-02
+   9  PDFQ0_HERA.UbarC   1.10167e+01   3.24275e+00   3.96867e-03   2.91277e-03
+  10  PDFQ0_HERA.DbarA   3.32294e-01   7.04213e-02   7.57237e-05   8.16243e-01
+  11  PDFQ0_HERA.DbarB  -9.75741e-02   2.79863e-02   2.48913e-05  -1.49124e+00
+  12  PDFQ0_HERA.DbarC   4.39978e+00   1.16646e+00   1.35933e-03   1.90787e-02
+  13  ApfelxxAlphas_10.AlphaQCDRef   1.21441e-01   6.24391e-03   1.33500e-06   2.06901e+01
+  14  ApfelxxAlphas_22.AlphaQCDRef   1.21987e-01   6.15275e-03   1.15414e-06  -4.11461e+00
+  15  ApfelxxAlphas_45.AlphaQCDRef   1.22232e-01   6.09160e-03   1.27001e-06  -1.34891e+01
+  16  ApfelxxAlphas_120.AlphaQCDRef   1.22526e-01   6.05745e-03   1.49632e-06  -3.93900e+00
+  17  ApfelxxAlphas_300.AlphaQCDRef   1.22976e-01   6.00024e-03   2.31065e-06   3.33485e+00
+  18  ApfelxxAlphas_800.AlphaQCDRef   1.23374e-01   5.93677e-03   3.69958e-06   3.30613e+00
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR= 18    ERR DEF=1
+ ELEMENTS ABOVE DIAGONAL ARE NOT PRINTED.
+  1.335e-02 
+ -1.139e-01  5.446e+00 
+  6.546e-02  3.787e+00  3.490e+01 
+  2.551e-03 -3.734e-02  2.306e-01  3.360e-03 
+ -1.795e-02  2.232e-01 -9.255e-01 -8.488e-03  1.315e-01 
+ -2.480e-02 -5.905e-01 -7.915e+00 -6.979e-02  7.141e-01  5.771e+00 
+  1.886e-02 -1.665e-01  4.515e-01  2.401e-03 -6.424e-02 -2.072e-01  7.951e-02 
+  2.499e-02 -1.136e-01  1.101e+00 -2.895e-04 -2.510e-01 -1.292e+00  1.831e-01  7.110e-01 
+  1.766e-01 -3.782e+00  1.213e+01  1.456e-01 -8.406e-01 -4.422e+00  4.474e-01  1.024e+00  1.052e+01 
+  4.222e-03 -1.007e-01  2.086e-01  2.787e-03 -1.538e-02 -5.430e-02  1.184e-02  1.876e-02  2.058e-01  4.959e-03 
+  1.452e-03 -3.896e-02  7.484e-02  1.009e-03 -5.593e-03 -1.811e-02  4.372e-03  6.616e-03  7.650e-02  1.923e-03  7.832e-04 
+ -2.555e-02 -7.734e-01 -1.720e+00  5.438e-03  1.184e-01  5.292e-01  2.438e-02 -9.142e-02 -4.781e-01 -1.567e-03 -4.143e-04 
+ -2.555e-02 -7.734e-01 -1.720e+00  5.438e-03  1.184e-01  5.292e-01  2.438e-02 -9.142e-02 -4.781e-01 -1.567e-03 -4.143e-04  1.361e+00 
+  5.698e-04 -8.543e-03  1.647e-02  2.329e-04 -1.346e-03 -3.569e-03  1.151e-03  1.621e-03  1.694e-02  4.037e-04  1.528e-04 
+  5.698e-04 -8.543e-03  1.647e-02  2.329e-04 -1.346e-03 -3.569e-03  1.151e-03  1.621e-03  1.694e-02  4.037e-04  1.528e-04 -9.833e-04  3.899e-05 
+  5.615e-04 -8.434e-03  1.631e-02  2.298e-04 -1.328e-03 -3.530e-03  1.136e-03  1.601e-03  1.673e-02  3.976e-04  1.498e-04 
+  5.615e-04 -8.434e-03  1.631e-02  2.298e-04 -1.328e-03 -3.530e-03  1.136e-03  1.601e-03  1.673e-02  3.976e-04  1.498e-04 -9.683e-04  3.840e-05  3.786e-05 
+  5.541e-04 -8.378e-03  1.617e-02  2.272e-04 -1.314e-03 -3.478e-03  1.126e-03  1.585e-03  1.658e-02  3.941e-04  1.481e-04 
+  5.541e-04 -8.378e-03  1.617e-02  2.272e-04 -1.314e-03 -3.478e-03  1.126e-03  1.585e-03  1.658e-02  3.941e-04  1.481e-04 -9.532e-04  3.801e-05  3.747e-05  3.711e-05 
+  5.482e-04 -8.370e-03  1.603e-02  2.253e-04 -1.305e-03 -3.422e-03  1.122e-03  1.574e-03  1.648e-02  3.926e-04  1.474e-04 
+  5.482e-04 -8.370e-03  1.603e-02  2.253e-04 -1.305e-03 -3.422e-03  1.122e-03  1.574e-03  1.648e-02  3.926e-04  1.474e-04 -9.410e-04  3.777e-05  3.725e-05  3.689e-05  3.669e-05 
+  5.416e-04 -8.302e-03  1.576e-02  2.216e-04 -1.290e-03 -3.338e-03  1.114e-03  1.561e-03  1.627e-02  3.893e-04  1.462e-04 
+  5.416e-04 -8.302e-03  1.576e-02  2.216e-04 -1.290e-03 -3.338e-03  1.114e-03  1.561e-03  1.627e-02  3.893e-04  1.462e-04 -9.425e-04  3.739e-05  3.687e-05  3.652e-05  3.633e-05  3.600e-05 
+  5.352e-04 -8.222e-03  1.542e-02  2.174e-04 -1.279e-03 -3.254e-03  1.103e-03  1.545e-03  1.603e-02  3.848e-04  1.445e-04 
+  5.352e-04 -8.222e-03  1.542e-02  2.174e-04 -1.279e-03 -3.254e-03  1.103e-03  1.545e-03  1.603e-02  3.848e-04  1.445e-04 -9.459e-04  3.694e-05  3.643e-05  3.608e-05  3.590e-05  3.557e-05  3.525e-05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8      9     10     11     12     13     14     15     16
+        1  0.99842   1.000 -0.422  0.096  0.381 -0.429 -0.089  0.579  0.257  0.471  0.519  0.449 -0.190  0.790  0.790  0.787  0.783
+        2  0.99947  -0.422  1.000  0.275 -0.276  0.264 -0.105 -0.253 -0.058 -0.500 -0.613 -0.597 -0.284 -0.586 -0.587 -0.589 -0.592
+        3  0.99923   0.096  0.275  1.000  0.673 -0.432 -0.558  0.271  0.221  0.633  0.501  0.453 -0.250  0.447  0.449  0.449  0.448
+        4  0.99861   0.381 -0.276  0.673  1.000 -0.404 -0.501  0.147 -0.006  0.774  0.683  0.622  0.080  0.644  0.644  0.643  0.642
+        5  0.99874  -0.429  0.264 -0.432 -0.404  1.000  0.820 -0.628 -0.821 -0.715 -0.602 -0.551  0.280 -0.594 -0.595 -0.595 -0.594
+        6  0.99839  -0.089 -0.105 -0.558 -0.501  0.820  1.000 -0.306 -0.638 -0.568 -0.321 -0.269  0.189 -0.238 -0.239 -0.238 -0.235
+        7  0.99944   0.579 -0.253  0.271  0.147 -0.628 -0.306  1.000  0.770  0.489  0.596  0.554  0.074  0.654  0.655  0.656  0.657
+        8  0.99796   0.257 -0.058  0.221 -0.006 -0.821 -0.638  0.770  1.000  0.375  0.316  0.280 -0.093  0.308  0.309  0.309  0.308
+        9  0.99705   0.471 -0.500  0.633  0.774 -0.715 -0.568  0.489  0.375  1.000  0.901  0.843 -0.126  0.837  0.839  0.839  0.839
+       10  0.99772   0.519 -0.613  0.501  0.683 -0.602 -0.321  0.596  0.316  0.901  1.000  0.976 -0.019  0.918  0.918  0.919  0.920
+       11  0.99844   0.449 -0.597  0.453  0.622 -0.551 -0.269  0.554  0.280  0.843  0.976  1.000 -0.013  0.874  0.870  0.869  0.870
+       12  0.99732  -0.190 -0.284 -0.250  0.080  0.280  0.189  0.074 -0.093 -0.126 -0.019 -0.013  1.000 -0.135 -0.135 -0.134 -0.133
+       13  0.99991   0.790 -0.586  0.447  0.644 -0.594 -0.238  0.654  0.308  0.837  0.918  0.874 -0.135  1.000  1.000  0.999  0.999
+       14  0.99993   0.790 -0.587  0.449  0.644 -0.595 -0.239  0.655  0.309  0.839  0.918  0.870 -0.135  1.000  1.000  1.000  0.999
+       15  0.99991   0.787 -0.589  0.449  0.643 -0.595 -0.238  0.656  0.309  0.839  0.919  0.869 -0.134  0.999  1.000  1.000  1.000
+       16  0.99988   0.783 -0.592  0.448  0.642 -0.594 -0.235  0.657  0.308  0.839  0.920  0.870 -0.133  0.999  0.999  1.000  1.000
+       17  0.99971   0.781 -0.593  0.445  0.637 -0.593 -0.232  0.659  0.309  0.836  0.921  0.870 -0.135  0.998  0.999  0.999  1.000
+                     1.000  0.999
+       18  0.99923   0.780 -0.593  0.440  0.632 -0.594 -0.228  0.659  0.309  0.833  0.920  0.870 -0.137  0.997  0.997  0.998  0.998
+                     0.999  1.000
+Info in <TMinuitMinimizer::Minimize>: Finished to run MIGRAD - status 0
+ EXTERNAL ERROR MATRIX.    NDIM=  18    NPAR= 18    ERR DEF=1
+ ELEMENTS ABOVE DIAGONAL ARE NOT PRINTED.
+  1.335e-02 
+ -1.139e-01  5.446e+00 
+  6.546e-02  3.787e+00  3.490e+01 
+  2.551e-03 -3.734e-02  2.306e-01  3.360e-03 
+ -1.795e-02  2.232e-01 -9.255e-01 -8.488e-03  1.315e-01 
+ -2.480e-02 -5.905e-01 -7.915e+00 -6.979e-02  7.141e-01  5.771e+00 
+  1.886e-02 -1.665e-01  4.515e-01  2.401e-03 -6.424e-02 -2.072e-01  7.951e-02 
+  2.499e-02 -1.136e-01  1.101e+00 -2.895e-04 -2.510e-01 -1.292e+00  1.831e-01  7.110e-01 
+  1.766e-01 -3.782e+00  1.213e+01  1.456e-01 -8.406e-01 -4.422e+00  4.474e-01  1.024e+00  1.052e+01 
+  4.222e-03 -1.007e-01  2.086e-01  2.787e-03 -1.538e-02 -5.430e-02  1.184e-02  1.876e-02  2.058e-01  4.959e-03 
+  1.452e-03 -3.896e-02  7.484e-02  1.009e-03 -5.593e-03 -1.811e-02  4.372e-03  6.616e-03  7.650e-02  1.923e-03  7.832e-04 
+ -2.555e-02 -7.734e-01 -1.720e+00  5.438e-03  1.184e-01  5.292e-01  2.438e-02 -9.142e-02 -4.781e-01 -1.567e-03 -4.143e-04 
+ -2.555e-02 -7.734e-01 -1.720e+00  5.438e-03  1.184e-01  5.292e-01  2.438e-02 -9.142e-02 -4.781e-01 -1.567e-03 -4.143e-04  1.361e+00 
+  5.698e-04 -8.543e-03  1.647e-02  2.329e-04 -1.346e-03 -3.569e-03  1.151e-03  1.621e-03  1.694e-02  4.037e-04  1.528e-04 
+  5.698e-04 -8.543e-03  1.647e-02  2.329e-04 -1.346e-03 -3.569e-03  1.151e-03  1.621e-03  1.694e-02  4.037e-04  1.528e-04 -9.833e-04  3.899e-05 
+  5.615e-04 -8.434e-03  1.631e-02  2.298e-04 -1.328e-03 -3.530e-03  1.136e-03  1.601e-03  1.673e-02  3.976e-04  1.498e-04 
+  5.615e-04 -8.434e-03  1.631e-02  2.298e-04 -1.328e-03 -3.530e-03  1.136e-03  1.601e-03  1.673e-02  3.976e-04  1.498e-04 -9.683e-04  3.840e-05  3.786e-05 
+  5.541e-04 -8.378e-03  1.617e-02  2.272e-04 -1.314e-03 -3.478e-03  1.126e-03  1.585e-03  1.658e-02  3.941e-04  1.481e-04 
+  5.541e-04 -8.378e-03  1.617e-02  2.272e-04 -1.314e-03 -3.478e-03  1.126e-03  1.585e-03  1.658e-02  3.941e-04  1.481e-04 -9.532e-04  3.801e-05  3.747e-05  3.711e-05 
+  5.482e-04 -8.370e-03  1.603e-02  2.253e-04 -1.305e-03 -3.422e-03  1.122e-03  1.574e-03  1.648e-02  3.926e-04  1.474e-04 
+  5.482e-04 -8.370e-03  1.603e-02  2.253e-04 -1.305e-03 -3.422e-03  1.122e-03  1.574e-03  1.648e-02  3.926e-04  1.474e-04 -9.410e-04  3.777e-05  3.725e-05  3.689e-05  3.669e-05 
+  5.416e-04 -8.302e-03  1.576e-02  2.216e-04 -1.290e-03 -3.338e-03  1.114e-03  1.561e-03  1.627e-02  3.893e-04  1.462e-04 
+  5.416e-04 -8.302e-03  1.576e-02  2.216e-04 -1.290e-03 -3.338e-03  1.114e-03  1.561e-03  1.627e-02  3.893e-04  1.462e-04 -9.425e-04  3.739e-05  3.687e-05  3.652e-05  3.633e-05  3.600e-05 
+  5.352e-04 -8.222e-03  1.542e-02  2.174e-04 -1.279e-03 -3.254e-03  1.103e-03  1.545e-03  1.603e-02  3.848e-04  1.445e-04 
+  5.352e-04 -8.222e-03  1.542e-02  2.174e-04 -1.279e-03 -3.254e-03  1.103e-03  1.545e-03  1.603e-02  3.848e-04  1.445e-04 -9.459e-04  3.694e-05  3.643e-05  3.608e-05  3.590e-05  3.557e-05  3.525e-05 
+ # INFO.    [AFitter::Execute] Info. AFitter::Execute(). Initial chisq: 2614.73
+ # INFO.    [AFitter::Execute] Info. AFitter::Execute(). Final Chisq:   1063.38
+
+****************************************
+Minimizer is TMinuit / Migrad
+MinFCN                    =      1063.38
+NDf                       =            0
+Edm                       =  0.000151373
+NCalls                    =         5763
+PDFQ0_HERA.gB             =     0.060959   +/-   0.115523    
+PDFQ0_HERA.gC             =      7.07521   +/-   2.33364     
+PDFQ0_HERA.gD             =      5.27514   +/-   5.90801     
+PDFQ0_HERA.uvB            =     0.933992   +/-   0.057962    
+PDFQ0_HERA.uvC            =      5.00412   +/-   0.362679    
+PDFQ0_HERA.uvE            =      8.25574   +/-   2.40226     
+PDFQ0_HERA.dvB            =     0.591117   +/-   0.281972    
+PDFQ0_HERA.dvC            =        2.213   +/-   0.843228    
+PDFQ0_HERA.UbarC          =      11.0167   +/-   3.24275     
+PDFQ0_HERA.DbarA          =     0.332294   +/-   0.0704213   
+PDFQ0_HERA.DbarB          =   -0.0975741   +/-   0.0279863   
+PDFQ0_HERA.DbarC          =      4.39978   +/-   1.16646     
+ApfelxxAlphas_10.AlphaQCDRef =     0.121441   +/-   0.00624391  
+ApfelxxAlphas_22.AlphaQCDRef =     0.121987   +/-   0.00615275  
+ApfelxxAlphas_45.AlphaQCDRef =     0.122232   +/-   0.0060916   
+ApfelxxAlphas_120.AlphaQCDRef =     0.122526   +/-   0.00605745  
+ApfelxxAlphas_300.AlphaQCDRef =     0.122976   +/-   0.00600024  
+ApfelxxAlphas_800.AlphaQCDRef =     0.123374   +/-   0.00593677  
+
+****************************************
+Printing nuisance parameters:
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.gB' to: 0.060959 +/- 0.115523
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.gC' to: 7.07521 +/- 2.33364
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.gD' to: 5.27514 +/- 5.90801
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.uvB' to: 0.933992 +/- 0.057962
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.uvC' to: 5.00412 +/- 0.362679
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.uvE' to: 8.25574 +/- 2.40226
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.dvB' to: 0.591117 +/- 0.281972
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.dvC' to: 2.213 +/- 0.843228
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.UbarC' to: 11.0167 +/- 3.24275
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.DbarA' to: 0.332294 +/- 0.0704213
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.DbarB' to: -0.0975741 +/- 0.0279863
+ # INFO.    [AFitter::execute] Setting fitted value 'PDFQ0_HERA.DbarC' to: 4.39978 +/- 1.16646
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_10.AlphaQCDRef' to: 0.121441 +/- 0.00624391
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_22.AlphaQCDRef' to: 0.121987 +/- 0.00615275
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_45.AlphaQCDRef' to: 0.122232 +/- 0.0060916
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_120.AlphaQCDRef' to: 0.122526 +/- 0.00605745
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_300.AlphaQCDRef' to: 0.122976 +/- 0.00600024
+ # INFO.    [AFitter::execute] Setting fitted value 'ApfelxxAlphas_800.AlphaQCDRef' to: 0.123374 +/- 0.00593677
+Tabulating object... elapsed time: 0.100372 seconds
+Tabulating object... elapsed time: 0.109082 seconds
+Tabulating object... elapsed time: 0.099673 seconds
+Tabulating object... elapsed time: 0.100506 seconds
+Tabulating object... elapsed time: 0.100058 seconds
+Tabulating object... elapsed time: 0.100131 seconds
+Tabulating object... elapsed time: 0.104607 seconds
+Tabulating object... elapsed time: 0.100746 seconds
+
+ # INFO.    [Alpos::DoTasks] Task 'MyFit' done successfully. Runtime 43:17:154807
+
+
+ +-----------------------------------------------------------------------------------------------------------+
+ + ---------------------------- Alpos::DoTasks(). Instantiating new task. 
+ + ----------------------------        Task type: StatAnalysis
+ + ----------------------------        Task name: Stat
+ +-----------------------------------------------------------------------------------------------------------+
+
+
+ # INFO.    [AFactory::TaskFactory] Initializing task of type 'StatAnalysis', as name 'Stat'.
+ # INFO.    [Alpos::DoTasks] Task 'Stat' instantiated.
+ # INFO.    [Alpos::DoTasks] Running the task 'Stat' of type 'StatAnalysis'.
+
+ +--------------------  StatAnalysis  ---------------------- 
+ + --- SuperData | SuperTheory (SuperTheory)
+ |
+ | Summary: SuperTheory                   	 1063.38	   935
+ |  ndf                    935
+ |  chisq-def              LogNormal
+ |     chisq               1063.38
+ |     chisq/ndf           1.13731
+ |     Prob                0.00213053
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.250978, 	0.222005
+ |     median:             0.272669, 	0.230291
+ |     RMS:                1.17607, 	0.997082
+ |     max:                4.11092, 	3.13167
+ |     min:                -3.98754, 	-3.9835
+ |  
+ + --- Q2-10-NCe+p-820_Data | Q2-10-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-10-NCe+p-820               	    1.57	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.56982
+ |     chisq/ndf           0.784909
+ |     Prob                0.456161
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.739872, 	-0.514182
+ |     median:             -0.739872, 	-0.514182
+ |     RMS:                1.16463, 	0.824062
+ |     max:                0.159542, 	0.129786
+ |     min:                -1.63929, 	-1.15815
+ |  
+ + --- Q2-10-NCe+p-920_Data | Q2-10-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-10-NCe+p-920               	   10.91	     7
+ |  ndf                    7
+ |  chisq-def              LogNormal
+ |     chisq               10.9089
+ |     chisq/ndf           1.55841
+ |     Prob                0.142644
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.175619, 	0.174924
+ |     median:             0.857313, 	0.795139
+ |     RMS:                1.26575, 	1.03748
+ |     max:                1.44876, 	1.19606
+ |     min:                -2.23184, 	-1.71999
+ |  
+ + --- Q2-1000-NCe+p-820_Data | Q2-1000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1000-NCe+p-820             	    0.00	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.000696463
+ |     chisq/ndf           0.000696463
+ |     Prob                0.978946
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.0267685, 	0.0263673
+ |     median:             0.0267685, 	0.0263673
+ |     RMS:                0.0267685, 	0.0263673
+ |     max:                0.0267685, 	0.0263673
+ |     min:                0.0267685, 	0.0263673
+ |  
+ + --- Q2-1000-NCe+p-920_Data | Q2-1000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1000-NCe+p-920             	    2.67	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               2.66729
+ |     chisq/ndf           0.266729
+ |     Prob                0.988207
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.00138821, 	0.0149522
+ |     median:             0.139859, 	0.131872
+ |     RMS:                0.55729, 	0.499071
+ |     max:                0.674211, 	0.645074
+ |     min:                -1.2729, 	-1.08005
+ |  
+ + --- Q2-1000-NCe-p-920_Data | Q2-1000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1000-NCe-p-920             	   15.77	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               15.7682
+ |     chisq/ndf           1.75202
+ |     Prob                0.0718823
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.340689, 	0.33222
+ |     median:             0.16707, 	0.154254
+ |     RMS:                1.31873, 	1.25036
+ |     max:                2.42195, 	2.31257
+ |     min:                -1.59309, 	-1.49579
+ |  
+ + --- Q2-12-NCe+p-460_Data | Q2-12-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12-NCe+p-460               	   13.87	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               13.867
+ |     chisq/ndf           1.3867
+ |     Prob                0.179144
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.40316, 	1.08863
+ |     median:             1.13399, 	0.865161
+ |     RMS:                1.70296, 	1.3268
+ |     max:                2.81096, 	2.29079
+ |     min:                -0.0793697, 	-0.0608792
+ |  
+ + --- Q2-12-NCe+p-575_Data | Q2-12-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12-NCe+p-575               	   19.82	    15
+ |  ndf                    15
+ |  chisq-def              LogNormal
+ |     chisq               19.8208
+ |     chisq/ndf           1.32138
+ |     Prob                0.178917
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.620845, 	0.502821
+ |     median:             0.19108, 	0.162161
+ |     RMS:                1.30866, 	1.07656
+ |     max:                3.82095, 	3.08516
+ |     min:                -0.850146, 	-0.803778
+ |  
+ + --- Q2-12-NCe+p-820_Data | Q2-12-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12-NCe+p-820               	    0.71	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               0.7122
+ |     chisq/ndf           0.2374
+ |     Prob                0.870331
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.615079, 	-0.493243
+ |     median:             -0.599887, 	-0.343435
+ |     RMS:                0.635934, 	0.538892
+ |     max:                -0.425286, 	-0.336104
+ |     min:                -0.820063, 	-0.800188
+ |  
+ + --- Q2-12-NCe+p-920_Data | Q2-12-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12-NCe+p-920               	   19.29	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               19.2884
+ |     chisq/ndf           1.60737
+ |     Prob                0.0818017
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0146087, 	0.0520571
+ |     median:             0.298621, 	0.221012
+ |     RMS:                1.59303, 	1.13818
+ |     max:                2.56505, 	1.78037
+ |     min:                -2.38532, 	-1.74579
+ |  
+ + --- Q2-120-NCe+p-460_Data | Q2-120-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-120-NCe+p-460              	   11.17	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               11.17
+ |     chisq/ndf           1.01545
+ |     Prob                0.429136
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.240165, 	0.236623
+ |     median:             -0.00826501, 	-0.0077311
+ |     RMS:                0.994618, 	0.929141
+ |     max:                1.94942, 	1.84049
+ |     min:                -1.16463, 	-1.10715
+ |  
+ + --- Q2-120-NCe+p-575_Data | Q2-120-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-120-NCe+p-575              	    8.88	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               8.87665
+ |     chisq/ndf           0.682819
+ |     Prob                0.782195
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0609335, 	-0.0519285
+ |     median:             -0.120722, 	-0.112638
+ |     RMS:                0.863179, 	0.796988
+ |     max:                1.53194, 	1.44351
+ |     min:                -1.79173, 	-1.57419
+ |  
+ + --- Q2-120-NCe+p-820_Data | Q2-120-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-120-NCe+p-820              	    0.66	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.657064
+ |     chisq/ndf           0.328532
+ |     Prob                0.71998
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.401882, 	-0.344267
+ |     median:             -0.401882, 	-0.344267
+ |     RMS:                0.640131, 	0.543199
+ |     max:                0.0963738, 	0.0759059
+ |     min:                -0.900137, 	-0.764441
+ |  
+ + --- Q2-120-NCe+p-920_Data | Q2-120-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-120-NCe+p-920              	    8.45	    15
+ |  ndf                    15
+ |  chisq-def              LogNormal
+ |     chisq               8.45114
+ |     chisq/ndf           0.563409
+ |     Prob                0.904426
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.148381, 	0.13729
+ |     median:             0.271787, 	0.224899
+ |     RMS:                0.812402, 	0.675507
+ |     max:                1.11856, 	1.01305
+ |     min:                -1.9593, 	-1.55897
+ |  
+ + --- Q2-120-NCe-p-920_Data | Q2-120-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-120-NCe-p-920              	    1.84	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               1.83811
+ |     chisq/ndf           0.612703
+ |     Prob                0.606677
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.593936, 	0.522127
+ |     median:             0.629672, 	0.504164
+ |     RMS:                0.884812, 	0.754437
+ |     max:                1.37871, 	1.19789
+ |     min:                -0.226577, 	-0.135673
+ |  
+ + --- Q2-1200-NCe+p-820_Data | Q2-1200-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1200-NCe+p-820             	    4.86	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               4.85976
+ |     chisq/ndf           1.61992
+ |     Prob                0.182359
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.278398, 	-0.290997
+ |     median:             -0.95315, 	-0.929202
+ |     RMS:                1.29616, 	1.24824
+ |     max:                1.49506, 	1.4082
+ |     min:                -1.3771, 	-1.35199
+ |  
+ + --- Q2-1200-NCe+p-920_Data | Q2-1200-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1200-NCe+p-920             	    9.09	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               9.09222
+ |     chisq/ndf           0.909222
+ |     Prob                0.523375
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.375995, 	0.355088
+ |     median:             0.594405, 	0.504004
+ |     RMS:                0.95214, 	0.868839
+ |     max:                1.53261, 	1.47207
+ |     min:                -1.39888, 	-1.19956
+ |  
+ + --- Q2-1200-NCe-p-920_Data | Q2-1200-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1200-NCe-p-920             	   17.15	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               17.1542
+ |     chisq/ndf           1.90602
+ |     Prob                0.0463555
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.593593, 	0.481406
+ |     median:             0.703038, 	0.613687
+ |     RMS:                1.64148, 	1.32219
+ |     max:                3.37277, 	2.60658
+ |     min:                -1.55336, 	-1.20404
+ |  
+ + --- Q2-12000-NCe+p-820_Data | Q2-12000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12000-NCe+p-820            	    0.66	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.663321
+ |     chisq/ndf           0.33166
+ |     Prob                0.717731
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.278008, 	-0.277992
+ |     median:             -0.278008, 	-0.277992
+ |     RMS:                0.616874, 	0.616184
+ |     max:                0.272669, 	0.271921
+ |     min:                -0.828685, 	-0.827904
+ |  
+ + --- Q2-12000-NCe+p-920_Data | Q2-12000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12000-NCe+p-920            	    9.65	     5
+ |  ndf                    5
+ |  chisq-def              LogNormal
+ |     chisq               9.65296
+ |     chisq/ndf           1.93059
+ |     Prob                0.0856872
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.355894, 	-0.354468
+ |     median:             -0.593962, 	-0.591216
+ |     RMS:                1.44432, 	1.43052
+ |     max:                1.19385, 	1.187
+ |     min:                -2.53855, 	-2.51362
+ |  
+ + --- Q2-12000-NCe-p-920_Data | Q2-12000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-12000-NCe-p-920            	    5.25	     5
+ |  ndf                    5
+ |  chisq-def              LogNormal
+ |     chisq               5.2533
+ |     chisq/ndf           1.05066
+ |     Prob                0.385755
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.417037, 	0.410216
+ |     median:             0.247181, 	0.235214
+ |     RMS:                0.964939, 	0.953046
+ |     max:                1.49198, 	1.4742
+ |     min:                -0.531866, 	-0.529669
+ |  
+ + --- Q2-15-NCe+p-460_Data | Q2-15-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-15-NCe+p-460               	   17.34	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               17.3363
+ |     chisq/ndf           1.73363
+ |     Prob                0.067246
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.29816, 	0.955449
+ |     median:             1.20609, 	0.909342
+ |     RMS:                1.78848, 	1.32449
+ |     max:                3.54521, 	2.64269
+ |     min:                -0.649808, 	-0.518398
+ |  
+ + --- Q2-15-NCe+p-575_Data | Q2-15-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-15-NCe+p-575               	   13.13	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               13.128
+ |     chisq/ndf           0.937714
+ |     Prob                0.516471
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.305056, 	0.258737
+ |     median:             0.621625, 	0.513773
+ |     RMS:                1.031, 	0.897369
+ |     max:                1.53832, 	1.44
+ |     min:                -1.40561, 	-1.18737
+ |  
+ + --- Q2-15-NCe+p-820_Data | Q2-15-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-15-NCe+p-820               	    2.89	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               2.89238
+ |     chisq/ndf           0.964125
+ |     Prob                0.408518
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.50406, 	-0.479931
+ |     median:             -1.08687, 	-0.909471
+ |     RMS:                1.03054, 	0.857445
+ |     max:                0.765693, 	0.521566
+ |     min:                -1.191, 	-1.05189
+ |  
+ + --- Q2-15-NCe+p-920_Data | Q2-15-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-15-NCe+p-920               	    7.74	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               7.73769
+ |     chisq/ndf           0.644807
+ |     Prob                0.805279
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.788186, 	-0.548719
+ |     median:             -0.716548, 	-0.541879
+ |     RMS:                1.15647, 	0.798977
+ |     max:                0.506642, 	0.335041
+ |     min:                -2.23192, 	-1.4291
+ |  
+ + --- Q2-150-NCe+p-460_Data | Q2-150-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-150-NCe+p-460              	   10.97	     7
+ |  ndf                    7
+ |  chisq-def              LogNormal
+ |     chisq               10.9656
+ |     chisq/ndf           1.56651
+ |     Prob                0.140128
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.809716, 	0.698209
+ |     median:             1.54538, 	1.37774
+ |     RMS:                1.4306, 	1.27399
+ |     max:                1.98523, 	1.66969
+ |     min:                -0.938739, 	-0.89479
+ |  
+ + --- Q2-150-NCe+p-575_Data | Q2-150-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-150-NCe+p-575              	   11.51	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               11.5093
+ |     chisq/ndf           1.27881
+ |     Prob                0.242405
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.12804, 	1.02296
+ |     median:             1.47893, 	1.22063
+ |     RMS:                1.37534, 	1.25549
+ |     max:                2.00485, 	1.87204
+ |     min:                -0.44885, 	-0.417772
+ |  
+ + --- Q2-150-NCe+p-820_Data | Q2-150-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-150-NCe+p-820              	    0.36	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.362293
+ |     chisq/ndf           0.362293
+ |     Prob                0.547235
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.744188, 	-0.60644
+ |     median:             -0.744188, 	-0.60644
+ |     RMS:                0.744188, 	0.60644
+ |     max:                -0.744188, 	-0.60644
+ |     min:                -0.744188, 	-0.60644
+ |  
+ + --- Q2-150-NCe+p-920_Data | Q2-150-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-150-NCe+p-920              	    3.65	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               3.64801
+ |     chisq/ndf           0.364801
+ |     Prob                0.961832
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.528966, 	0.444398
+ |     median:             0.56136, 	0.484474
+ |     RMS:                0.77052, 	0.660495
+ |     max:                1.30821, 	1.10597
+ |     min:                -0.716816, 	-0.645247
+ |  
+ + --- Q2-150-NCe-p-920_Data | Q2-150-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-150-NCe-p-920              	    6.32	     5
+ |  ndf                    5
+ |  chisq-def              LogNormal
+ |     chisq               6.32376
+ |     chisq/ndf           1.26475
+ |     Prob                0.275978
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.862867, 	0.744997
+ |     median:             0.967037, 	0.903231
+ |     RMS:                1.29239, 	1.06894
+ |     max:                2.11969, 	1.66409
+ |     min:                -0.439533, 	-0.286037
+ |  
+ + --- Q2-1500-NCe+p-820_Data | Q2-1500-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1500-NCe+p-820             	    2.57	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               2.57022
+ |     chisq/ndf           1.28511
+ |     Prob                0.27662
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.66355, 	-0.657256
+ |     median:             -0.66355, 	-0.657256
+ |     RMS:                1.20294, 	1.191
+ |     max:                0.339826, 	0.335968
+ |     min:                -1.66693, 	-1.65048
+ |  
+ + --- Q2-1500-NCe+p-920_Data | Q2-1500-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1500-NCe+p-920             	   10.79	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               10.7905
+ |     chisq/ndf           1.19895
+ |     Prob                0.290339
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.13884, 	-0.124385
+ |     median:             -0.524481, 	-0.47383
+ |     RMS:                1.1519, 	1.0349
+ |     max:                1.7261, 	1.54032
+ |     min:                -1.74794, 	-1.60345
+ |  
+ + --- Q2-1500-NCe-p-920_Data | Q2-1500-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-1500-NCe-p-920             	   14.40	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               14.4017
+ |     chisq/ndf           1.60019
+ |     Prob                0.108736
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.484194, 	0.421225
+ |     median:             -0.0207351, 	-0.0186557
+ |     RMS:                1.33355, 	1.17574
+ |     max:                3.30032, 	2.91348
+ |     min:                -0.967302, 	-0.85333
+ |  
+ + --- Q2-18-NCe+p-820_Data | Q2-18-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-18-NCe+p-820               	    1.05	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               1.04927
+ |     chisq/ndf           0.349755
+ |     Prob                0.789334
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.590977, 	-0.487377
+ |     median:             -0.733795, 	-0.711368
+ |     RMS:                0.7409, 	0.601774
+ |     max:                0.0135537, 	0.0109657
+ |     min:                -1.05269, 	-0.761728
+ |  
+ + --- Q2-18-NCe+p-920_Data | Q2-18-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-18-NCe+p-920               	    6.25	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               6.2492
+ |     chisq/ndf           0.520767
+ |     Prob                0.903002
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.315172, 	-0.223661
+ |     median:             -0.272919, 	-0.220271
+ |     RMS:                0.890526, 	0.599932
+ |     max:                1.40939, 	0.927183
+ |     min:                -1.93564, 	-1.28429
+ |  
+ + --- Q2-200-NCe+p-460_Data | Q2-200-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-200-NCe+p-460              	   18.32	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               18.3214
+ |     chisq/ndf           1.52678
+ |     Prob                0.106274
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0869907, 	-0.0812603
+ |     median:             0.325401, 	0.305344
+ |     RMS:                1.27871, 	1.17137
+ |     max:                1.38663, 	1.21055
+ |     min:                -2.95756, 	-2.70955
+ |  
+ + --- Q2-200-NCe+p-575_Data | Q2-200-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-200-NCe+p-575              	   14.87	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               14.8746
+ |     chisq/ndf           1.06247
+ |     Prob                0.386783
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.817789, 	0.748062
+ |     median:             1.0244, 	0.946281
+ |     RMS:                1.19178, 	1.09126
+ |     max:                2.04175, 	1.78136
+ |     min:                -0.627388, 	-0.588022
+ |  
+ + --- Q2-200-NCe+p-820_Data | Q2-200-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-200-NCe+p-820              	    1.71	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.70932
+ |     chisq/ndf           0.85466
+ |     Prob                0.425428
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -1.16519, 	-1.02579
+ |     median:             -1.16519, 	-1.02579
+ |     RMS:                1.16859, 	1.0274
+ |     max:                -1.07602, 	-0.968255
+ |     min:                -1.25436, 	-1.08332
+ |  
+ + --- Q2-200-NCe+p-920_Data | Q2-200-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-200-NCe+p-920              	   25.38	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               25.3842
+ |     chisq/ndf           1.95263
+ |     Prob                0.0205402
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.655572, 	0.34836
+ |     median:             0.23346, 	0.216297
+ |     RMS:                1.8632, 	1.22642
+ |     max:                4.11092, 	2.39049
+ |     min:                -2.00417, 	-1.70514
+ |  
+ + --- Q2-200-NCe-p-920_Data | Q2-200-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-200-NCe-p-920              	    5.24	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               5.24286
+ |     chisq/ndf           0.476624
+ |     Prob                0.918837
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.133093, 	-0.11552
+ |     median:             -0.168353, 	-0.110341
+ |     RMS:                0.707322, 	0.516335
+ |     max:                1.09493, 	0.729191
+ |     min:                -1.43796, 	-0.961987
+ |  
+ + --- Q2-2000-NCe+p-820_Data | Q2-2000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-2000-NCe+p-820             	    0.69	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.689719
+ |     chisq/ndf           0.34486
+ |     Prob                0.70832
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.539971, 	-0.53435
+ |     median:             -0.539971, 	-0.53435
+ |     RMS:                0.610185, 	0.603672
+ |     max:                -0.255794, 	-0.253477
+ |     min:                -0.824148, 	-0.815223
+ |  
+ + --- Q2-2000-NCe+p-920_Data | Q2-2000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-2000-NCe+p-920             	    6.02	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               6.02027
+ |     chisq/ndf           0.668919
+ |     Prob                0.737888
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0392133, 	-0.0311231
+ |     median:             0.221425, 	0.20908
+ |     RMS:                0.850524, 	0.785074
+ |     max:                1.06646, 	0.983563
+ |     min:                -1.73049, 	-1.56619
+ |  
+ + --- Q2-2000-NCe-p-920_Data | Q2-2000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-2000-NCe-p-920             	   13.47	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               13.4729
+ |     chisq/ndf           1.49698
+ |     Prob                0.142351
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.54803, 	-0.523807
+ |     median:             -0.846273, 	-0.818504
+ |     RMS:                1.35096, 	1.28309
+ |     max:                2.29706, 	2.13645
+ |     min:                -2.60844, 	-2.54907
+ |  
+ + --- Q2-20000-NCe+p-820_Data | Q2-20000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-20000-NCe+p-820            	    2.19	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               2.19137
+ |     chisq/ndf           1.09568
+ |     Prob                0.334311
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.816885, 	0.815722
+ |     median:             0.816885, 	0.815722
+ |     RMS:                0.865299, 	0.863988
+ |     max:                1.10226, 	1.10046
+ |     min:                0.531506, 	0.530989
+ |  
+ + --- Q2-20000-NCe+p-920_Data | Q2-20000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-20000-NCe+p-920            	    0.08	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               0.0839781
+ |     chisq/ndf           0.0279927
+ |     Prob                0.993688
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.00470673, 	-0.00486547
+ |     median:             0.11387, 	0.112967
+ |     RMS:                0.169468, 	0.168784
+ |     max:                0.116285, 	0.115894
+ |     min:                -0.244275, 	-0.243457
+ |  
+ + --- Q2-20000-NCe-p-920_Data | Q2-20000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-20000-NCe-p-920            	    4.37	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               4.37093
+ |     chisq/ndf           1.45698
+ |     Prob                0.224096
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.880753, 	0.854128
+ |     median:             1.25376, 	1.24308
+ |     RMS:                1.18576, 	1.15046
+ |     max:                1.61136, 	1.54146
+ |     min:                -0.222858, 	-0.222157
+ |  
+ + --- Q2-22-NCe+p-460_Data | Q2-22-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-22-NCe+p-460               	    5.93	     7
+ |  ndf                    7
+ |  chisq-def              LogNormal
+ |     chisq               5.92738
+ |     chisq/ndf           0.846769
+ |     Prob                0.548254
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0155562, 	-0.0283956
+ |     median:             0.148447, 	0.12827
+ |     RMS:                1.14752, 	0.920739
+ |     max:                1.33766, 	1.04289
+ |     min:                -2.3279, 	-1.86972
+ |  
+ + --- Q2-22-NCe+p-575_Data | Q2-22-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-22-NCe+p-575               	    9.32	     9
+ |  ndf                    9
+ |  chisq-def              LogNormal
+ |     chisq               9.31683
+ |     chisq/ndf           1.0352
+ |     Prob                0.408557
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.13244, 	-0.139093
+ |     median:             0.251879, 	0.216788
+ |     RMS:                1.07263, 	0.954425
+ |     max:                0.66626, 	0.553075
+ |     min:                -2.88767, 	-2.60719
+ |  
+ + --- Q2-22-NCe+p-820_Data | Q2-22-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-22-NCe+p-820               	    0.07	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.0671108
+ |     chisq/ndf           0.0671108
+ |     Prob                0.795591
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.320038, 	-0.260235
+ |     median:             -0.320038, 	-0.260235
+ |     RMS:                0.320038, 	0.260235
+ |     max:                -0.320038, 	-0.260235
+ |     min:                -0.320038, 	-0.260235
+ |  
+ + --- Q2-22-NCe+p-920_Data | Q2-22-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-22-NCe+p-920               	   15.08	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               15.0782
+ |     chisq/ndf           1.07701
+ |     Prob                0.372831
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.120172, 	-0.128333
+ |     median:             -0.0797648, 	-0.0558757
+ |     RMS:                1.05664, 	0.90867
+ |     max:                1.43437, 	1.21562
+ |     min:                -1.90981, 	-1.73611
+ |  
+ + --- Q2-250-NCe+p-460_Data | Q2-250-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-250-NCe+p-460              	    9.49	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               9.4894
+ |     chisq/ndf           0.790784
+ |     Prob                0.660658
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.303224, 	0.284808
+ |     median:             0.08849, 	0.0819045
+ |     RMS:                0.89236, 	0.822438
+ |     max:                1.88759, 	1.74942
+ |     min:                -0.946896, 	-0.859876
+ |  
+ + --- Q2-250-NCe+p-575_Data | Q2-250-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-250-NCe+p-575              	    7.88	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               7.87607
+ |     chisq/ndf           0.562577
+ |     Prob                0.895682
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.667676, 	0.598215
+ |     median:             0.81387, 	0.752848
+ |     RMS:                1.02566, 	0.935224
+ |     max:                1.74471, 	1.55091
+ |     min:                -1.05286, 	-1.02652
+ |  
+ + --- Q2-250-NCe+p-820_Data | Q2-250-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-250-NCe+p-820              	    0.85	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.851087
+ |     chisq/ndf           0.851087
+ |     Prob                0.356245
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -1.0658, 	-0.936273
+ |     median:             -1.0658, 	-0.936273
+ |     RMS:                1.0658, 	0.936273
+ |     max:                -1.0658, 	-0.936273
+ |     min:                -1.0658, 	-0.936273
+ |  
+ + --- Q2-250-NCe+p-920_Data | Q2-250-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-250-NCe+p-920              	   18.21	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               18.2066
+ |     chisq/ndf           1.51721
+ |     Prob                0.109561
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.335891, 	0.225276
+ |     median:             0.292583, 	0.203822
+ |     RMS:                1.3871, 	1.01528
+ |     max:                2.28543, 	1.77884
+ |     min:                -1.94716, 	-1.31498
+ |  
+ + --- Q2-250-NCe-p-920_Data | Q2-250-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-250-NCe-p-920              	    8.04	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               8.03527
+ |     chisq/ndf           0.669606
+ |     Prob                0.782368
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.599608, 	-0.438941
+ |     median:             -0.756542, 	-0.529897
+ |     RMS:                1.03998, 	0.796023
+ |     max:                1.2164, 	1.11006
+ |     min:                -2.1397, 	-1.37323
+ |  
+ + --- Q2-27-NCe+p-460_Data | Q2-27-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-27-NCe+p-460               	    3.85	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               3.84607
+ |     chisq/ndf           0.384607
+ |     Prob                0.954024
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.14879, 	0.843615
+ |     median:             1.14475, 	0.766226
+ |     RMS:                1.2642, 	0.921616
+ |     max:                2.1623, 	1.43332
+ |     min:                0.286634, 	0.254711
+ |  
+ + --- Q2-27-NCe+p-575_Data | Q2-27-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-27-NCe+p-575               	   13.14	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               13.1395
+ |     chisq/ndf           1.01073
+ |     Prob                0.437094
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.917731, 	0.759386
+ |     median:             0.809126, 	0.707712
+ |     RMS:                1.34103, 	1.10167
+ |     max:                2.47872, 	1.92266
+ |     min:                -0.538269, 	-0.475438
+ |  
+ + --- Q2-27-NCe+p-820_Data | Q2-27-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-27-NCe+p-820               	    0.27	     4
+ |  ndf                    4
+ |  chisq-def              LogNormal
+ |     chisq               0.273596
+ |     chisq/ndf           0.0683991
+ |     Prob                0.991454
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0105994, 	-0.00880823
+ |     median:             0.0693644, 	0.0539496
+ |     RMS:                0.267101, 	0.239258
+ |     max:                0.235625, 	0.230291
+ |     min:                -0.416751, 	-0.373423
+ |  
+ + --- Q2-27-NCe+p-920_Data | Q2-27-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-27-NCe+p-920               	   11.16	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               11.1615
+ |     chisq/ndf           0.858575
+ |     Prob                0.597292
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.115295, 	-0.0515746
+ |     median:             0.134679, 	0.091168
+ |     RMS:                1.06048, 	0.739148
+ |     max:                1.58219, 	1.17052
+ |     min:                -1.80257, 	-1.18034
+ |  
+ + --- Q2-300-NCe+p-460_Data | Q2-300-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-300-NCe+p-460              	    6.40	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               6.40146
+ |     chisq/ndf           0.581951
+ |     Prob                0.845281
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.242374, 	0.214439
+ |     median:             0.440971, 	0.40798
+ |     RMS:                0.833292, 	0.789485
+ |     max:                1.44053, 	1.35446
+ |     min:                -1.12192, 	-1.10766
+ |  
+ + --- Q2-300-NCe+p-575_Data | Q2-300-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-300-NCe+p-575              	    7.32	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               7.31977
+ |     chisq/ndf           0.563059
+ |     Prob                0.884929
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.340703, 	0.31706
+ |     median:             0.524468, 	0.498983
+ |     RMS:                0.789139, 	0.741606
+ |     max:                1.31432, 	1.22622
+ |     min:                -0.948448, 	-0.869075
+ |  
+ + --- Q2-300-NCe+p-820_Data | Q2-300-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-300-NCe+p-820              	    0.04	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.044853
+ |     chisq/ndf           0.0224265
+ |     Prob                0.977823
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.00706281, 	-0.00270731
+ |     median:             -0.00706281, 	-0.00270731
+ |     RMS:                0.153269, 	0.141905
+ |     max:                0.146043, 	0.139172
+ |     min:                -0.160169, 	-0.144587
+ |  
+ + --- Q2-300-NCe+p-920_Data | Q2-300-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-300-NCe+p-920              	   13.66	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               13.6642
+ |     chisq/ndf           1.13869
+ |     Prob                0.322662
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.564593, 	-0.350492
+ |     median:             -0.273446, 	-0.210783
+ |     RMS:                1.45836, 	1.04516
+ |     max:                1.70444, 	1.43238
+ |     min:                -2.81732, 	-1.88042
+ |  
+ + --- Q2-300-NCe-p-920_Data | Q2-300-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-300-NCe-p-920              	    9.14	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               9.13979
+ |     chisq/ndf           0.761649
+ |     Prob                0.690947
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0592273, 	0.00533714
+ |     median:             0.138054, 	0.0976579
+ |     RMS:                1.00829, 	0.761146
+ |     max:                1.20963, 	1.07513
+ |     min:                -2.52454, 	-1.72691
+ |  
+ + --- Q2-3000-NCe+p-820_Data | Q2-3000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-3000-NCe+p-820             	    1.11	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.11121
+ |     chisq/ndf           0.555604
+ |     Prob                0.573726
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.742539, 	0.734371
+ |     median:             0.742539, 	0.734371
+ |     RMS:                0.742778, 	0.734574
+ |     max:                0.761393, 	0.751655
+ |     min:                0.723685, 	0.717087
+ |  
+ + --- Q2-3000-NCe+p-920_Data | Q2-3000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-3000-NCe+p-920             	    3.05	     8
+ |  ndf                    8
+ |  chisq-def              LogNormal
+ |     chisq               3.05455
+ |     chisq/ndf           0.381818
+ |     Prob                0.930888
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.0956374, 	0.0876474
+ |     median:             0.256191, 	0.241042
+ |     RMS:                0.631384, 	0.600697
+ |     max:                0.87323, 	0.820435
+ |     min:                -1.15324, 	-1.10721
+ |  
+ + --- Q2-3000-NCe-p-920_Data | Q2-3000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-3000-NCe-p-920             	    4.75	     8
+ |  ndf                    8
+ |  chisq-def              LogNormal
+ |     chisq               4.74526
+ |     chisq/ndf           0.593158
+ |     Prob                0.784423
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.153432, 	0.143723
+ |     median:             0.189117, 	0.184844
+ |     RMS:                0.782321, 	0.739605
+ |     max:                1.0217, 	0.972008
+ |     min:                -1.19447, 	-1.14001
+ |  
+ + --- Q2-30000-NCe+p-820_Data | Q2-30000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-30000-NCe+p-820            	    1.75	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               1.75005
+ |     chisq/ndf           1.75005
+ |     Prob                0.185871
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.88393, 	0.883678
+ |     median:             0.88393, 	0.883678
+ |     RMS:                0.88393, 	0.883678
+ |     max:                0.88393, 	0.883678
+ |     min:                0.88393, 	0.883678
+ |  
+ + --- Q2-30000-NCe+p-920_Data | Q2-30000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-30000-NCe+p-920            	    0.22	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.220168
+ |     chisq/ndf           0.110084
+ |     Prob                0.895759
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.168305, 	0.164774
+ |     median:             0.168305, 	0.164774
+ |     RMS:                0.319789, 	0.314901
+ |     max:                0.440221, 	0.433125
+ |     min:                -0.103611, 	-0.103577
+ |  
+ + --- Q2-30000-NCe-p-920_Data | Q2-30000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-30000-NCe-p-920            	    5.59	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               5.58562
+ |     chisq/ndf           2.79281
+ |     Prob                0.0612489
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.11249, 	1.10459
+ |     median:             1.11249, 	1.10459
+ |     RMS:                1.22094, 	1.2154
+ |     max:                1.61555, 	1.61162
+ |     min:                0.60943, 	0.597555
+ |  
+ + --- Q2-35-NCe+p-460_Data | Q2-35-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-35-NCe+p-460               	   17.25	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               17.2479
+ |     chisq/ndf           1.56799
+ |     Prob                0.100754
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.36597, 	1.08572
+ |     median:             1.07615, 	0.825492
+ |     RMS:                1.6529, 	1.35887
+ |     max:                3.4059, 	3.13167
+ |     min:                -0.0379075, 	-0.0319768
+ |  
+ + --- Q2-35-NCe+p-575_Data | Q2-35-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-35-NCe+p-575               	   14.26	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               14.2582
+ |     chisq/ndf           1.01844
+ |     Prob                0.430657
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.462256, 	0.398949
+ |     median:             0.683129, 	0.589769
+ |     RMS:                1.17345, 	0.978971
+ |     max:                2.18859, 	1.68607
+ |     min:                -1.41983, 	-1.16305
+ |  
+ + --- Q2-35-NCe+p-820_Data | Q2-35-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-35-NCe+p-820               	    3.99	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               3.99209
+ |     chisq/ndf           1.99605
+ |     Prob                0.135871
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.77602, 	1.40079
+ |     median:             1.77602, 	1.40079
+ |     RMS:                1.82354, 	1.49571
+ |     max:                2.18961, 	1.92513
+ |     min:                1.36243, 	0.876459
+ |  
+ + --- Q2-35-NCe+p-920_Data | Q2-35-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-35-NCe+p-920               	    7.70	    16
+ |  ndf                    16
+ |  chisq-def              LogNormal
+ |     chisq               7.69713
+ |     chisq/ndf           0.481071
+ |     Prob                0.957376
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.378284, 	-0.253191
+ |     median:             -0.364759, 	-0.238971
+ |     RMS:                0.917981, 	0.646559
+ |     max:                1.34599, 	1.03141
+ |     min:                -2.0256, 	-1.22735
+ |  
+ + --- Q2-400-NCe+p-460_Data | Q2-400-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-400-NCe+p-460              	   14.52	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               14.5245
+ |     chisq/ndf           1.45245
+ |     Prob                0.150381
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.16363, 	1.11675
+ |     median:             0.95888, 	0.922067
+ |     RMS:                1.32125, 	1.2687
+ |     max:                2.44191, 	2.32048
+ |     min:                0.294968, 	0.28153
+ |  
+ + --- Q2-400-NCe+p-575_Data | Q2-400-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-400-NCe+p-575              	   10.87	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               10.8653
+ |     chisq/ndf           0.905438
+ |     Prob                0.540501
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.341207, 	0.314936
+ |     median:             0.506051, 	0.492933
+ |     RMS:                1.08457, 	1.04963
+ |     max:                1.77702, 	1.65367
+ |     min:                -2.39654, 	-2.37845
+ |  
+ + --- Q2-400-NCe+p-820_Data | Q2-400-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-400-NCe+p-820              	    1.38	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.37651
+ |     chisq/ndf           0.688256
+ |     Prob                0.502451
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.318367, 	-0.300154
+ |     median:             -0.318367, 	-0.300154
+ |     RMS:                0.856906, 	0.810862
+ |     max:                0.477202, 	0.453108
+ |     min:                -1.11394, 	-1.05342
+ |  
+ + --- Q2-400-NCe+p-920_Data | Q2-400-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-400-NCe+p-920              	   22.68	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               22.6761
+ |     chisq/ndf           2.06146
+ |     Prob                0.0196285
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.0951028, 	0.125814
+ |     median:             -0.476858, 	-0.38975
+ |     RMS:                1.53748, 	1.27933
+ |     max:                2.94326, 	2.55703
+ |     min:                -1.38356, 	-1.02251
+ |  
+ + --- Q2-400-NCe-p-920_Data | Q2-400-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-400-NCe-p-920              	   17.17	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               17.169
+ |     chisq/ndf           1.56082
+ |     Prob                0.102976
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.201527, 	0.150434
+ |     median:             -0.167743, 	-0.150805
+ |     RMS:                1.40818, 	1.0539
+ |     max:                2.57415, 	1.59292
+ |     min:                -2.10546, 	-1.60477
+ |  
+ + --- Q2-45-NCe+p-460_Data | Q2-45-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-45-NCe+p-460               	   11.78	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               11.7829
+ |     chisq/ndf           1.17829
+ |     Prob                0.299852
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.564972, 	0.453773
+ |     median:             0.20545, 	0.139509
+ |     RMS:                1.22826, 	0.981546
+ |     max:                2.67106, 	1.84293
+ |     min:                -0.610771, 	-0.500188
+ |  
+ + --- Q2-45-NCe+p-575_Data | Q2-45-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-45-NCe+p-575               	    7.63	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               7.63349
+ |     chisq/ndf           0.545249
+ |     Prob                0.907534
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.47401, 	0.414659
+ |     median:             0.398216, 	0.348777
+ |     RMS:                0.824622, 	0.718246
+ |     max:                1.80068, 	1.51738
+ |     min:                -0.714284, 	-0.671013
+ |  
+ + --- Q2-45-NCe+p-820_Data | Q2-45-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-45-NCe+p-820               	    1.68	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.67581
+ |     chisq/ndf           0.837904
+ |     Prob                0.432616
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.634344, 	0.474886
+ |     median:             0.634344, 	0.474886
+ |     RMS:                1.15977, 	0.854871
+ |     max:                1.60526, 	1.18572
+ |     min:                -0.336572, 	-0.235951
+ |  
+ + --- Q2-45-NCe+p-920_Data | Q2-45-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-45-NCe+p-920               	   10.05	    15
+ |  ndf                    15
+ |  chisq-def              LogNormal
+ |     chisq               10.0494
+ |     chisq/ndf           0.669959
+ |     Prob                0.816622
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.846216, 	-0.568035
+ |     median:             -0.368635, 	-0.263945
+ |     RMS:                1.3464, 	0.881594
+ |     max:                0.696535, 	0.54198
+ |     min:                -2.62587, 	-1.59616
+ |  
+ + --- Q2-500-NCe+p-460_Data | Q2-500-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-500-NCe+p-460              	   12.37	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               12.3716
+ |     chisq/ndf           1.03097
+ |     Prob                0.416313
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.44555, 	0.426913
+ |     median:             0.597585, 	0.580519
+ |     RMS:                1.03126, 	0.998682
+ |     max:                2.192, 	2.10182
+ |     min:                -1.02738, 	-1.01735
+ |  
+ + --- Q2-500-NCe+p-575_Data | Q2-500-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-500-NCe+p-575              	   13.81	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               13.8078
+ |     chisq/ndf           0.986275
+ |     Prob                0.464123
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.518916, 	0.501594
+ |     median:             0.393068, 	0.384423
+ |     RMS:                0.984041, 	0.959529
+ |     max:                1.74553, 	1.72019
+ |     min:                -0.808995, 	-0.803053
+ |  
+ + --- Q2-500-NCe+p-820_Data | Q2-500-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-500-NCe+p-820              	    0.71	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.712434
+ |     chisq/ndf           0.356217
+ |     Prob                0.700321
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.6007, 	0.59019
+ |     median:             0.6007, 	0.59019
+ |     RMS:                0.602853, 	0.592345
+ |     max:                0.651604, 	0.640677
+ |     min:                0.549796, 	0.539703
+ |  
+ + --- Q2-500-NCe+p-920_Data | Q2-500-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-500-NCe+p-920              	   10.50	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               10.5045
+ |     chisq/ndf           0.954951
+ |     Prob                0.485661
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.680065, 	0.588429
+ |     median:             0.664573, 	0.575524
+ |     RMS:                1.10596, 	0.964895
+ |     max:                2.2373, 	1.94757
+ |     min:                -1.00984, 	-0.922599
+ |  
+ + --- Q2-500-NCe-p-920_Data | Q2-500-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-500-NCe-p-920              	   16.65	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               16.6541
+ |     chisq/ndf           1.38784
+ |     Prob                0.16308
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.761968, 	0.682478
+ |     median:             0.665921, 	0.605112
+ |     RMS:                1.32049, 	1.16638
+ |     max:                2.51197, 	2.18223
+ |     min:                -1.2752, 	-1.12676
+ |  
+ + --- Q2-5000-NCe+p-820_Data | Q2-5000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-5000-NCe+p-820             	    0.67	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               0.666714
+ |     chisq/ndf           0.333357
+ |     Prob                0.716514
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.334208, 	-0.330544
+ |     median:             -0.334208, 	-0.330544
+ |     RMS:                0.598796, 	0.592633
+ |     max:                0.162643, 	0.161346
+ |     min:                -0.83106, 	-0.822433
+ |  
+ + --- Q2-5000-NCe+p-920_Data | Q2-5000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-5000-NCe+p-920             	   10.87	     7
+ |  ndf                    7
+ |  chisq-def              LogNormal
+ |     chisq               10.8698
+ |     chisq/ndf           1.55283
+ |     Prob                0.144398
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.0392584, 	0.0229457
+ |     median:             0.535636, 	0.524014
+ |     RMS:                1.35601, 	1.30917
+ |     max:                1.86496, 	1.74745
+ |     min:                -2.51534, 	-2.47075
+ |  
+ + --- Q2-5000-NCe-p-920_Data | Q2-5000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-5000-NCe-p-920             	   12.35	     7
+ |  ndf                    7
+ |  chisq-def              LogNormal
+ |     chisq               12.3509
+ |     chisq/ndf           1.76442
+ |     Prob                0.0895927
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0548638, 	-0.0552049
+ |     median:             -0.114526, 	-0.111349
+ |     RMS:                1.32224, 	1.25874
+ |     max:                2.53127, 	2.39583
+ |     min:                -1.9929, 	-1.93216
+ |  
+ + --- Q2-50000-NCe-p-920_Data | Q2-50000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-50000-NCe-p-920            	    4.39	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               4.39305
+ |     chisq/ndf           4.39305
+ |     Prob                0.0360858
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.22622, 	1.22559
+ |     median:             1.22622, 	1.22559
+ |     RMS:                1.22622, 	1.22559
+ |     max:                1.22622, 	1.22559
+ |     min:                1.22622, 	1.22559
+ |  
+ + --- Q2-60-NCe+p-460_Data | Q2-60-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-60-NCe+p-460               	    8.89	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               8.89326
+ |     chisq/ndf           0.889326
+ |     Prob                0.542263
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.344667, 	0.305404
+ |     median:             0.297721, 	0.22354
+ |     RMS:                1.02466, 	0.87867
+ |     max:                2.11915, 	1.71029
+ |     min:                -1.44592, 	-1.30716
+ |  
+ + --- Q2-60-NCe+p-575_Data | Q2-60-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-60-NCe+p-575               	   24.55	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               24.5499
+ |     chisq/ndf           1.75356
+ |     Prob                0.0392799
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.466838, 	0.427328
+ |     median:             0.405393, 	0.378346
+ |     RMS:                1.37002, 	1.21861
+ |     max:                3.61047, 	3.09868
+ |     min:                -1.84843, 	-1.75176
+ |  
+ + --- Q2-60-NCe+p-820_Data | Q2-60-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-60-NCe+p-820               	    0.80	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.801769
+ |     chisq/ndf           0.801769
+ |     Prob                0.370565
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                1.27615, 	0.887292
+ |     median:             1.27615, 	0.887292
+ |     RMS:                1.27615, 	0.887292
+ |     max:                1.27615, 	0.887292
+ |     min:                1.27615, 	0.887292
+ |  
+ + --- Q2-60-NCe+p-920_Data | Q2-60-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-60-NCe+p-920               	   15.97	    15
+ |  ndf                    15
+ |  chisq-def              LogNormal
+ |     chisq               15.9653
+ |     chisq/ndf           1.06436
+ |     Prob                0.384359
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.416473, 	0.366892
+ |     median:             0.406759, 	0.291705
+ |     RMS:                1.1706, 	0.927292
+ |     max:                2.73437, 	2.13292
+ |     min:                -1.54228, 	-1.00837
+ |  
+ + --- Q2-60-NCe-p-920_Data | Q2-60-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-60-NCe-p-920               	    0.01	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               0.0091849
+ |     chisq/ndf           0.0091849
+ |     Prob                0.923649
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.11031, 	0.0957269
+ |     median:             0.11031, 	0.0957269
+ |     RMS:                0.11031, 	0.0957269
+ |     max:                0.11031, 	0.0957269
+ |     min:                0.11031, 	0.0957269
+ |  
+ + --- Q2-650-NCe+p-460_Data | Q2-650-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-650-NCe+p-460              	   19.63	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               19.6253
+ |     chisq/ndf           1.78411
+ |     Prob                0.0507526
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.589467, 	0.578801
+ |     median:             0.304087, 	0.302857
+ |     RMS:                1.21235, 	1.18642
+ |     max:                2.66331, 	2.58838
+ |     min:                -1.03865, 	-1.01461
+ |  
+ + --- Q2-650-NCe+p-575_Data | Q2-650-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-650-NCe+p-575              	    9.05	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               9.04649
+ |     chisq/ndf           0.695884
+ |     Prob                0.769424
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.292554, 	-0.291612
+ |     median:             -0.282237, 	-0.273261
+ |     RMS:                0.951277, 	0.941623
+ |     max:                0.958712, 	0.940405
+ |     min:                -2.21111, 	-2.19455
+ |  
+ + --- Q2-650-NCe+p-820_Data | Q2-650-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-650-NCe+p-820              	    0.89	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               0.889942
+ |     chisq/ndf           0.296647
+ |     Prob                0.827854
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.580309, 	-0.554721
+ |     median:             -0.570875, 	-0.528475
+ |     RMS:                0.600929, 	0.577194
+ |     max:                -0.394059, 	-0.373833
+ |     min:                -0.775994, 	-0.761854
+ |  
+ + --- Q2-650-NCe+p-920_Data | Q2-650-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-650-NCe+p-920              	   17.06	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               17.0615
+ |     chisq/ndf           1.55105
+ |     Prob                0.106069
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.243307, 	0.238879
+ |     median:             0.947049, 	0.800954
+ |     RMS:                1.26127, 	1.11132
+ |     max:                2.06421, 	1.89277
+ |     min:                -2.15496, 	-1.85826
+ |  
+ + --- Q2-650-NCe-p-920_Data | Q2-650-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-650-NCe-p-920              	   26.30	    10
+ |  ndf                    10
+ |  chisq-def              LogNormal
+ |     chisq               26.3005
+ |     chisq/ndf           2.63005
+ |     Prob                0.00335641
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.362959, 	0.236298
+ |     median:             0.0542934, 	0.0501338
+ |     RMS:                1.76636, 	1.42252
+ |     max:                3.26504, 	2.51322
+ |     min:                -1.87325, 	-1.78621
+ |  
+ + --- Q2-70-NCe+p-820_Data | Q2-70-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-70-NCe+p-820               	    2.81	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               2.80587
+ |     chisq/ndf           1.40293
+ |     Prob                0.245874
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.934678, 	0.696648
+ |     median:             0.934678, 	0.696648
+ |     RMS:                1.45381, 	1.09699
+ |     max:                2.04821, 	1.54404
+ |     min:                -0.178851, 	-0.15074
+ |  
+ + --- Q2-70-NCe+p-920_Data | Q2-70-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-70-NCe+p-920               	   14.29	    14
+ |  ndf                    14
+ |  chisq-def              LogNormal
+ |     chisq               14.2851
+ |     chisq/ndf           1.02036
+ |     Prob                0.428696
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.0905742, 	-0.0676642
+ |     median:             -0.219571, 	-0.174176
+ |     RMS:                1.11583, 	0.934897
+ |     max:                2.47537, 	2.01734
+ |     min:                -1.92617, 	-1.50897
+ |  
+ + --- Q2-800-NCe+p-460_Data | Q2-800-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-800-NCe+p-460              	    9.93	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               9.92552
+ |     chisq/ndf           0.90232
+ |     Prob                0.537099
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.19752, 	-0.199314
+ |     median:             0.0574291, 	0.056365
+ |     RMS:                1.33505, 	1.33046
+ |     max:                1.24125, 	1.22551
+ |     min:                -3.98754, 	-3.9835
+ |  
+ + --- Q2-800-NCe+p-575_Data | Q2-800-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-800-NCe+p-575              	   15.28	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               15.2843
+ |     chisq/ndf           1.17572
+ |     Prob                0.28994
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -0.30972, 	-0.309648
+ |     median:             -0.293986, 	-0.292438
+ |     RMS:                1.12903, 	1.1118
+ |     max:                1.81479, 	1.76665
+ |     min:                -1.76532, 	-1.73552
+ |  
+ + --- Q2-800-NCe+p-820_Data | Q2-800-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-800-NCe+p-820              	    1.31	     2
+ |  ndf                    2
+ |  chisq-def              LogNormal
+ |     chisq               1.30656
+ |     chisq/ndf           0.653281
+ |     Prob                0.520336
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.522119, 	0.492928
+ |     median:             0.522119, 	0.492928
+ |     RMS:                0.829592, 	0.786441
+ |     max:                1.1668, 	1.10572
+ |     min:                -0.122563, 	-0.119862
+ |  
+ + --- Q2-800-NCe+p-920_Data | Q2-800-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-800-NCe+p-920              	   16.28	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               16.2845
+ |     chisq/ndf           1.48041
+ |     Prob                0.130895
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.0969028, 	0.100758
+ |     median:             -0.272905, 	-0.230082
+ |     RMS:                1.21874, 	1.07509
+ |     max:                2.41582, 	2.04167
+ |     min:                -1.44797, 	-1.24884
+ |  
+ + --- Q2-800-NCe-p-920_Data | Q2-800-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-800-NCe-p-920              	    4.37	    11
+ |  ndf                    11
+ |  chisq-def              LogNormal
+ |     chisq               4.37465
+ |     chisq/ndf           0.397695
+ |     Prob                0.95765
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.441877, 	0.37889
+ |     median:             0.56601, 	0.475106
+ |     RMS:                0.760751, 	0.663994
+ |     max:                1.52924, 	1.2483
+ |     min:                -0.678842, 	-0.670912
+ |  
+ + --- Q2-8000-NCe+p-820_Data | Q2-8000-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-8000-NCe+p-820             	    1.99	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               1.98829
+ |     chisq/ndf           0.662762
+ |     Prob                0.574841
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.30133, 	0.298954
+ |     median:             0.806297, 	0.801206
+ |     RMS:                0.795471, 	0.791492
+ |     max:                0.837336, 	0.832961
+ |     min:                -0.739645, 	-0.737307
+ |  
+ + --- Q2-8000-NCe+p-920_Data | Q2-8000-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-8000-NCe+p-920             	    6.16	     6
+ |  ndf                    6
+ |  chisq-def              LogNormal
+ |     chisq               6.15737
+ |     chisq/ndf           1.02623
+ |     Prob                0.405795
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.472208, 	0.453985
+ |     median:             0.654193, 	0.632458
+ |     RMS:                1.02031, 	0.993532
+ |     max:                1.42378, 	1.37403
+ |     min:                -1.30867, 	-1.29134
+ |  
+ + --- Q2-8000-NCe-p-920_Data | Q2-8000-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-8000-NCe-p-920             	   11.01	     6
+ |  ndf                    6
+ |  chisq-def              LogNormal
+ |     chisq               11.0071
+ |     chisq/ndf           1.83451
+ |     Prob                0.088158
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.272928, 	0.248975
+ |     median:             0.242545, 	0.236889
+ |     RMS:                1.3832, 	1.32825
+ |     max:                2.67115, 	2.52531
+ |     min:                -1.91789, 	-1.89146
+ |  
+ + --- Q2-90-NCe+p-460_Data | Q2-90-NCe+p-460 (ApfelxxDISCS)
+ |
+ | Summary: Q2-90-NCe+p-460               	   12.02	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               12.0206
+ |     chisq/ndf           1.00172
+ |     Prob                0.444025
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.430815, 	0.383299
+ |     median:             0.343698, 	0.295018
+ |     RMS:                1.06365, 	0.946046
+ |     max:                2.3621, 	2.04188
+ |     min:                -1.16125, 	-1.12489
+ |  
+ + --- Q2-90-NCe+p-575_Data | Q2-90-NCe+p-575 (ApfelxxDISCS)
+ |
+ | Summary: Q2-90-NCe+p-575               	   15.49	    13
+ |  ndf                    13
+ |  chisq-def              LogNormal
+ |     chisq               15.4922
+ |     chisq/ndf           1.19171
+ |     Prob                0.277642
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.574171, 	0.536277
+ |     median:             0.876537, 	0.798978
+ |     RMS:                1.17694, 	1.0811
+ |     max:                2.15474, 	2.01392
+ |     min:                -1.18542, 	-1.05522
+ |  
+ + --- Q2-90-NCe+p-820_Data | Q2-90-NCe+p-820 (ApfelxxDISCS)
+ |
+ | Summary: Q2-90-NCe+p-820               	    2.72	     1
+ |  ndf                    1
+ |  chisq-def              LogNormal
+ |     chisq               2.7151
+ |     chisq/ndf           2.7151
+ |     Prob                0.0994026
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                -2.11492, 	-1.68253
+ |     median:             -2.11492, 	-1.68253
+ |     RMS:                2.11492, 	1.68253
+ |     max:                -2.11492, 	-1.68253
+ |     min:                -2.11492, 	-1.68253
+ |  
+ + --- Q2-90-NCe+p-920_Data | Q2-90-NCe+p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-90-NCe+p-920               	    9.84	    12
+ |  ndf                    12
+ |  chisq-def              LogNormal
+ |     chisq               9.84309
+ |     chisq/ndf           0.820257
+ |     Prob                0.629724
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.885351, 	0.670651
+ |     median:             0.681737, 	0.462114
+ |     RMS:                1.31467, 	1.01538
+ |     max:                2.21365, 	1.83845
+ |     min:                -0.738744, 	-0.591429
+ |  
+ + --- Q2-90-NCe-p-920_Data | Q2-90-NCe-p-920 (ApfelxxDISCS)
+ |
+ | Summary: Q2-90-NCe-p-920               	    2.49	     3
+ |  ndf                    3
+ |  chisq-def              LogNormal
+ |     chisq               2.49279
+ |     chisq/ndf           0.83093
+ |     Prob                0.476596
+ # INFO.    [AChisqBase::PrintNuisanceParameters] No Nuisance parameters have been calculated.
+ |  Pull (stat+unc, tot):  
+ |     mean                0.498067, 	0.33625
+ |     median:             0.88031, 	0.543963
+ |     RMS:                1.06598, 	0.873768
+ |     max:                1.41275, 	1.2036
+ |     min:                -0.798855, 	-0.738818
+ |  
+ +---------------------------------------------------------- 
+
+
+ # INFO.    [Alpos::DoTasks] Task 'Stat' done successfully. Runtime 00:00:00
+
+-----------------------------------------------------------------------------------------------------
+ # INFO.    [Alpos::DoTasks] All tasks done [3/3].
+
+Alpos total runtime 34:09:122441.16
+Thanks for using LHAPDF 6.1.6. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
