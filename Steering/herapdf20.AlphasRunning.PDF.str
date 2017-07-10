@@ -1,0 +1,1206 @@
+#! -*-sh-*- (colors for emacs)
+
+#################################################################
+#
+#  An example steering file for Alpos
+#
+#################################################################
+
+
+
+#################################################################
+# --------------------------------------------------------------#
+#
+#  Part I: Global Alpos settings
+#
+#  Alpos global settings
+#
+# --------------------------------------------------------------#
+ErrorSymmetrization       blabla  # not yet implemented: only hardcoded
+GlobalVerbosity           Info    # Possible options: Infom, Debug, Warning, Error
+InitSubsets               false   # Init subsets of datasets: true, false
+
+
+
+
+#################################################################
+# --------------------------------------------------------------#
+#
+#  Part II: Datasets 
+#
+#  Specify 'DataTheorySets', i.e. data-files containing
+#  data sets and their corresponding theory class
+#
+# --------------------------------------------------------------#
+
+DataTheorySets {{
+  AlposName                          SteerFile                                                       TheoryFunction
+# ---------                          ---------                                                       --------------
+#  HERA-II-NCe+p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_920_3p5to10.dat     ApfelxxDISCS    Q2.eq.12
+#  HERA-II-NCe+p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_920_10to35.dat      ApfelxxDISCS    Q2.eq.12
+#  HERA-II-NCe+p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_920_45to300.dat     ApfelxxDISCS    Q2.eq.12
+#  HERA-II-NCe+p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_920_400to.dat       ApfelxxDISCS    Q2.eq.12
+
+#  HERA-II-NCe+p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_920_10to35.dat      ApfelxxDISCS    Q2.eq.12
+#  HERA-II-NCe+p-820                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_820_Q2.gt.3.5.dat    ApfelxxDISCS    Q2>12
+#  HERA-II-NCe+p-575                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_575_Q2.gt.3.5.dat    ApfelxxDISCS    Q2>12
+#  HERA-II-NCe+p-460                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e+p_460_Q2.gt.3.5.dat    ApfelxxDISCS    Q2>12
+#  HERA-II-NCe-p-920                  datafiles/h1zeus/1506.06042/HERA1+2_NC_e-p.dat                  ApfelxxDISCS    Q2>12
+#  HERA-II-CCe+p                      datafiles/h1zeus/1506.06042/HERA1+2_CC_e+p.dat                  ApfelxxDISCS    Q2>12
+#  HERA-II-CCe-p                      datafiles/h1zeus/1506.06042/HERA1+2_CC_e-p.dat                  ApfelxxDISCS    Q2>12
+#
+
+# 3.5 4.5 6.5 8.5 
+# 10 12 15 18 22 27 35 45 60 70 90 120 150 200 250 300 400 500 650 800 1000 1200 1500 2000 3000  5000 8000 12000 20000 30000
+
+#  Q2-10-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+#  Q2-10-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-10-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+#  Q2-10-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+#  Q2-10-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e-p.dat                  ApfelxxDISCS    
+#  Q2-10-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_CC_e+p.dat                  ApfelxxDISCS    
+#  Q2-10-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_CC_e-p.dat                  ApfelxxDISCS    
+
+
+#  Q2-3p5-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.3p5/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+#  Q2-3p5-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.3p5/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-3p5-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.3p5/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+#  Q2-3p5-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.3p5/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+#
+#  Q2-4p5-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.4p5/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+#  Q2-4p5-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.4p5/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  #
+#  Q2-4p5-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.5/HERA1+2_NC_e+p_575.dat                    ApfelxxDISCS    # mind the name    
+#  Q2-4p5-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.5/HERA1+2_NC_e+p_460.dat                    ApfelxxDISCS    # mind the name     
+#
+#  Q2-6p5-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.6p5/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+#  Q2-6p5-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.6p5/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-6p5-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.6p5/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+#  Q2-6p5-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.6p5/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+#
+#  Q2-8p5-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.8p5/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+#  Q2-8p5-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.8p5/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-8p5-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.8p5/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+#  Q2-8p5-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.8p5/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+
+  Q2-10-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-10-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.10/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-12-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.12/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-12-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.12/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-12-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.12/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-12-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.12/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-15-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.15/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-15-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.15/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-15-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.15/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-15-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.15/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-18-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.18/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-18-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.18/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-22-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.20/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    # mind the name    
+  Q2-22-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.20/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    # mind the name     
+  #
+  Q2-22-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.22/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-22-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.22/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-27-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.25/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    # mind the name
+  Q2-27-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.25/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    # mind the name    
+  #
+  Q2-27-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.27/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-27-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.27/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-35-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.35/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-35-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.35/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-35-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.35/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-35-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.35/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-45-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.45/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-45-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.45/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-45-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.45/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-45-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.45/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+
+  Q2-60-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.60/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-60-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.60/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-60-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.60/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-60-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.60/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-60-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.60/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-70-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.70/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-70-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.70/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-90-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.90/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-90-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.90/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-90-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.90/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-90-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.90/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-90-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.90/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+
+  Q2-120-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.120/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-120-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.120/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-120-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.120/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-120-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.120/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-120-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.120/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-150-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.150/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-150-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.150/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-150-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.150/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-150-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.150/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-150-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.150/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-200-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.200/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-200-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.200/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-200-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.200/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-200-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.200/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-200-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.200/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-250-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.250/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-250-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.250/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-250-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.250/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-250-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.250/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-250-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.250/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-300-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-300-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-300-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-300-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-300-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+#  Q2-300-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_CC_e+p.dat                     ApfelxxDISCS    
+#  Q2-300-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.300/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-400-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.400/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-400-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.400/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-400-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.400/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-400-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.400/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-400-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.400/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-500-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-500-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-500-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-500-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-500-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+#  Q2-500-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_CC_e+p.dat                     ApfelxxDISCS    
+#  Q2-500-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.500/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-650-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.650/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-650-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.650/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-650-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.650/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-650-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.650/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-650-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.650/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-800-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.800/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-800-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.800/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-800-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.800/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+  Q2-800-NCe+p-575                  datafiles/h1zeus/1506.06042/q2.eq.800/HERA1+2_NC_e+p_575.dat                  ApfelxxDISCS    
+  Q2-800-NCe+p-460                  datafiles/h1zeus/1506.06042/q2.eq.800/HERA1+2_NC_e+p_460.dat                  ApfelxxDISCS    
+
+  Q2-1000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.1000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-1000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.1000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-1000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.1000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-1000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.1000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-1000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.1000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-1200-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.1200/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-1200-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.1200/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-1200-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.1200/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-1500-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.1500/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-1500-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.1500/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-1500-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.1500/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-1500-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.1500/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-1500-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.1500/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-2000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.2000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-2000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.2000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-2000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.2000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-2000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.2000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-2000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.2000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-3000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.3000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-3000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.3000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-3000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.3000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-3000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.3000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-3000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.3000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-5000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.5000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-5000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.5000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-5000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.5000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-5000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.5000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-5000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.5000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-8000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.8000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-8000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.8000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-8000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.8000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-8000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.8000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    
+#  Q2-8000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.8000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    
+
+  Q2-12000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.12000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-12000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.12000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-12000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.12000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-12000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.15000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS    # mind: 15000
+#  Q2-12000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.15000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS    # mind: 15000
+
+  Q2-20000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.20000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-20000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.20000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-20000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.20000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+
+  Q2-30000-NCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.30000/HERA1+2_NC_e+p_920.dat                  ApfelxxDISCS    
+  Q2-30000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.30000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+  Q2-30000-NCe+p-820                  datafiles/h1zeus/1506.06042/q2.eq.30000/HERA1+2_NC_e+p_820.dat                  ApfelxxDISCS    
+#  Q2-30000-CCe+p-920                  datafiles/h1zeus/1506.06042/q2.eq.30000/HERA1+2_CC_e+p.dat                      ApfelxxDISCS
+#  Q2-30000-CCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.30000/HERA1+2_CC_e-p.dat                      ApfelxxDISCS
+
+  Q2-50000-NCe-p-920                  datafiles/h1zeus/1506.06042/q2.eq.50000/HERA1+2_NC_e-p.dat                      ApfelxxDISCS    
+
+
+}}
+
+
+#################################################################
+# --------------------------------------------------------------#
+#
+#  Part III: Tasks
+#
+#  Specify tasks and their name which should be executed by Alpos
+#
+# --------------------------------------------------------------#
+Tasks {{
+  TaskType               TaskName       
+# --------               --------
+#   PrintErrorSummary     PrintErrors          # print errors 
+#   PrintSteering	 PrintSt	 	   
+#   PrintTheorySet	 Print	 	   
+#   StatAnalysis	         Stat                  
+#  ReplaceDataWithTheoryValues  ReplaceDataWithTheoryValues
+   StatAnalysis	         Stat                  
+   AFitter		 MyFit		   
+   StatAnalysis	         Stat                  
+
+#  SavePDFTGraph          SavePDFTGraph
+}}
+
+
+
+#################################################################
+# --------------------------------------------------------------#
+#
+#  Part IV: Task parameters
+#
+#  Specify parameters for each task
+#  The parameters must be related to the 'task type' and 
+#  must put into a namespace (i.e. '{{{' '}}}') with the
+#  'name' of the taks 
+#
+# --------------------------------------------------------------#
+SavePDFTGraph {{{
+   PDF                  QcdnumPDF
+   nx                   100
+   xmin                 1.e-6
+   Q2Values             { 1.9, 3, 4, 5, 10, 100, 6464, 8317, 10000 }
+   RootFilename         PDF_QCDNUM.HERAII.NNLO.root
+}}}
+
+# --------------------------------------------------------------#
+
+MyFit {{{
+   Minimizer                    TMinuit  # Minuit2 TMinuit
+   PrintLevel                   3 
+   Tolerance                    1
+   Strategy                     1
+   Chisq		        LogNormal
+
+   FitParameters {
+       PDFQ0_HERA.gB        
+       PDFQ0_HERA.gC        
+       PDFQ0_HERA.gD        
+       PDFQ0_HERA.uvB       
+       PDFQ0_HERA.uvC       
+       PDFQ0_HERA.uvE       
+       PDFQ0_HERA.dvB       
+       PDFQ0_HERA.dvC       
+       PDFQ0_HERA.UbarC     
+       PDFQ0_HERA.DbarA     
+       PDFQ0_HERA.DbarB     
+       PDFQ0_HERA.DbarC     
+
+#       ApfelxxAlphas_3p5.AlphaQCDRef
+#       ApfelxxAlphas_4p5.AlphaQCDRef
+#       ApfelxxAlphas_6p5.AlphaQCDRef
+#       ApfelxxAlphas_8p5.AlphaQCDRef
+
+       ApfelxxAlphas_10.AlphaQCDRef
+       ApfelxxAlphas_12.AlphaQCDRef
+       ApfelxxAlphas_15.AlphaQCDRef
+       ApfelxxAlphas_18.AlphaQCDRef
+       ApfelxxAlphas_22.AlphaQCDRef
+       ApfelxxAlphas_27.AlphaQCDRef
+       ApfelxxAlphas_35.AlphaQCDRef       
+       ApfelxxAlphas_45.AlphaQCDRef       
+       ApfelxxAlphas_60.AlphaQCDRef       
+       ApfelxxAlphas_70.AlphaQCDRef       
+       ApfelxxAlphas_90.AlphaQCDRef       
+       ApfelxxAlphas_120.AlphaQCDRef       
+       ApfelxxAlphas_150.AlphaQCDRef       
+       ApfelxxAlphas_200.AlphaQCDRef       
+       ApfelxxAlphas_250.AlphaQCDRef       
+
+       ApfelxxAlphas_300.AlphaQCDRef       
+       ApfelxxAlphas_400.AlphaQCDRef       
+       ApfelxxAlphas_500.AlphaQCDRef       
+       ApfelxxAlphas_650.AlphaQCDRef       
+       ApfelxxAlphas_800.AlphaQCDRef       
+
+       ApfelxxAlphas_1000.AlphaQCDRef       
+       ApfelxxAlphas_1200.AlphaQCDRef       
+       ApfelxxAlphas_1500.AlphaQCDRef       
+       ApfelxxAlphas_2000.AlphaQCDRef       
+       ApfelxxAlphas_3000.AlphaQCDRef       
+       ApfelxxAlphas_5000.AlphaQCDRef       
+       ApfelxxAlphas_8000.AlphaQCDRef       
+
+       ApfelxxAlphas_12000.AlphaQCDRef       
+       ApfelxxAlphas_20000.AlphaQCDRef       
+       ApfelxxAlphas_30000.AlphaQCDRef       
+#
+#-- alpha_s
+#    "AlphasMz"
+#-- PDF parameters
+#     PDFQ0_HERA.gB  PDFQ0_HERA.gC
+#     PDFQ0_HERA.gD
+# #    PDFQ0_HERA.gAP  PDFQ0_HERA.gBP #PDFQ0_HERA.gCP
+#     PDFQ0_HERA.uvB  PDFQ0_HERA.uvC PDFQ0_HERA.uvE
+#     PDFQ0_HERA.dvB  PDFQ0_HERA.dvC
+#     PDFQ0_HERA.UbarC  #PDFQ0_HERA.UbarD
+#     PDFQ0_HERA.DbarA  PDFQ0_HERA.DbarB  PDFQ0_HERA.DbarC
+   }
+
+   # printing
+   PrintResults			true
+   PrintCovariance		false
+
+   # todo's
+   InputTheorySet		MyFit.Result
+   PrintCorrelations		true
+
+# --- Chi2Scan parameters
+   SigmaRange                   5
+   RootFilename                 test_chi2scan.hera2_LogN.5x2s.80.root
+   nPoints                      80
+   DoFit                        true  # repeat full fit for each scan point (may be time consuming. Requires parameters for AFitter)
+   Fitter                       MyFit
+
+}}}
+
+
+# --------------------------------------------------------------#
+
+Stat {{{
+   Chisq		        LogNormal #HERAFitterDefault #ChisqCovariance # LogNormal   # current choices: LogNormal, ChisqCovariance, LogNormalNuisance
+   ChisqStatUncorr	         #CovStatUncorr #LogNormalStatUncorr   # current choices: LogNormalStatUncorr, ChisqCovStatUncorr
+   DoChisq                      true
+   DoPValue                     true
+}}}
+
+# --------------------------------------------------------------#
+
+
+
+#################################################################
+# --------------------------------------------------------------#
+#
+#  Part V: Alpos theory settings
+#
+#  Specify 'theory' parameters
+#  These consists fo
+#     + functions
+#     + parameters
+#
+#  A theory function takes parameters and/or other functions
+#  as input to calculate output value(s), as for instance 
+#  cross sections (or PDFs). A parameter obviously always returns
+#  its value.
+#  
+#  Parameters can be made 'identical' by setting one value to
+#  the other, e.g.:
+#    AlphasMZ         AsMz
+#  This does not only 'copy' the value of the parameter, but also
+#  if the parameter is changed during the run, both parameters
+#  are updated simultaneously. If only the 'starting' value
+#  should be identical, then one could use the 'read_steer' feature
+#    AlphasMZ         ${AsMz}
+#
+#  Any function requires a particular set of input paramters,
+#  which can be looked up in the .cc file.
+#  The 'default' values can be specified like:
+#    <functiontype>.<parametername>    value
+#  
+#  A particular instantiation of a function takes the default 
+#  parameters. These may be replaced for each instance
+#  of a function by setting them explicitly, like e.g.:
+#    <functionname>.<parametername>    value
+#       
+#  By that, multiple instances of functions with different input
+#  parameters may be defined.
+#
+#  Some functions have 'integration' parameters, which have to
+#  set to a dummy value, like for instance a renormalization or
+#  factorization scale:
+#     QcdnumPDF.muf		       100
+#
+#  Please see the documentation of the individual functions for 
+#  more details on the parameters.
+#
+#  If the functions have a (non-object-oriented) implementation
+#  with e.g. fortran, one typically has a 'Init'-function, which 
+#  then is required by the actual function as input.
+#  
+#  If a function is accesses during runtime, which is not 
+#  initialized, this will cause a 'purely virtual function call' 
+#  error.
+#
+# --------------------------------------------------------------#
+
+
+AlposTheory {{{
+
+# --------------------------------------------------------------#
+#   Specify used functions.
+#   Give them a 'name' and specify the class
+# --------------------------------------------------------------#
+InitFunctions {{
+   FunctionName          FunctionType         # one line here! (header of 'table')
+   PDFQ0_HERA            PDFQ0_HERA 
+
+   PDFQ0_LHAPDF          PDFQ0_LHAPDF
+   LHAPDF6               LHAPDF6
+
+   ApfelxxAlphas         ApfelxxAlphas
+   ApfelxxPDF            ApfelxxPDF
+
+   ApfelxxAlphas_Evol      ApfelxxAlphas
+   ApfelxxPDF_Evol         ApfelxxPDF
+
+   ApfelxxAlphas_3p5      ApfelxxAlphas
+   ApfelxxPDF_3p5         ApfelxxPDF
+
+   ApfelxxAlphas_4p5      ApfelxxAlphas
+   ApfelxxPDF_4p5         ApfelxxPDF
+
+   ApfelxxAlphas_6p5      ApfelxxAlphas
+   ApfelxxPDF_6p5         ApfelxxPDF
+
+   ApfelxxAlphas_8p5      ApfelxxAlphas
+   ApfelxxPDF_8p5         ApfelxxPDF
+
+   ApfelxxAlphas_10      ApfelxxAlphas
+   ApfelxxPDF_10         ApfelxxPDF
+
+   ApfelxxAlphas_12      ApfelxxAlphas
+   ApfelxxPDF_12         ApfelxxPDF
+
+   ApfelxxAlphas_15      ApfelxxAlphas
+   ApfelxxPDF_15         ApfelxxPDF
+
+   ApfelxxAlphas_18      ApfelxxAlphas
+   ApfelxxPDF_18         ApfelxxPDF
+   ApfelxxAlphas_22      ApfelxxAlphas
+   ApfelxxPDF_22         ApfelxxPDF
+   ApfelxxAlphas_27      ApfelxxAlphas
+   ApfelxxPDF_27         ApfelxxPDF
+   ApfelxxAlphas_35      ApfelxxAlphas
+   ApfelxxPDF_35         ApfelxxPDF
+   ApfelxxAlphas_45      ApfelxxAlphas
+   ApfelxxPDF_45         ApfelxxPDF
+
+   ApfelxxAlphas_60      ApfelxxAlphas
+   ApfelxxPDF_60         ApfelxxPDF
+   ApfelxxAlphas_70      ApfelxxAlphas
+   ApfelxxPDF_70         ApfelxxPDF
+   ApfelxxAlphas_90      ApfelxxAlphas
+   ApfelxxPDF_90         ApfelxxPDF
+
+   ApfelxxAlphas_120      ApfelxxAlphas
+   ApfelxxPDF_120         ApfelxxPDF
+   ApfelxxAlphas_150      ApfelxxAlphas
+   ApfelxxPDF_150         ApfelxxPDF
+   ApfelxxAlphas_200      ApfelxxAlphas
+   ApfelxxPDF_200         ApfelxxPDF
+   ApfelxxAlphas_250      ApfelxxAlphas
+   ApfelxxPDF_250         ApfelxxPDF
+
+   ApfelxxAlphas_300      ApfelxxAlphas
+   ApfelxxPDF_300         ApfelxxPDF
+   ApfelxxAlphas_400      ApfelxxAlphas
+   ApfelxxPDF_400         ApfelxxPDF
+   ApfelxxAlphas_500      ApfelxxAlphas
+   ApfelxxPDF_500         ApfelxxPDF
+   ApfelxxAlphas_650      ApfelxxAlphas
+   ApfelxxPDF_650         ApfelxxPDF
+   ApfelxxAlphas_800      ApfelxxAlphas
+   ApfelxxPDF_800         ApfelxxPDF
+
+   ApfelxxAlphas_1000      ApfelxxAlphas
+   ApfelxxPDF_1000         ApfelxxPDF
+   ApfelxxAlphas_1200      ApfelxxAlphas
+   ApfelxxPDF_1200         ApfelxxPDF
+   ApfelxxAlphas_1500      ApfelxxAlphas
+   ApfelxxPDF_1500         ApfelxxPDF
+   ApfelxxAlphas_2000      ApfelxxAlphas
+   ApfelxxPDF_2000         ApfelxxPDF
+   ApfelxxAlphas_3000      ApfelxxAlphas
+   ApfelxxPDF_3000         ApfelxxPDF
+   ApfelxxAlphas_5000      ApfelxxAlphas
+   ApfelxxPDF_5000         ApfelxxPDF
+   ApfelxxAlphas_8000      ApfelxxAlphas
+   ApfelxxPDF_8000         ApfelxxPDF
+
+   ApfelxxAlphas_10000      ApfelxxAlphas
+   ApfelxxPDF_10000         ApfelxxPDF
+   ApfelxxAlphas_12000      ApfelxxAlphas
+   ApfelxxPDF_12000         ApfelxxPDF
+   ApfelxxAlphas_20000      ApfelxxAlphas
+   ApfelxxPDF_20000         ApfelxxPDF
+   ApfelxxAlphas_30000      ApfelxxAlphas
+   ApfelxxPDF_30000         ApfelxxPDF
+
+}}
+
+
+
+# --------------------------------------------------------------#
+# Useful parameter shorthand notations
+# --------------------------------------------------------------#
+iOrd                        2
+AlphasMz		    0.118000001 
+mZ                          91.1876
+
+# --------------------------------------------------------------#
+#  Theory defaults
+# --------------------------------------------------------------#
+# Q2 values
+# 3.5 4.5 6.5 8.5 
+# 10 12 15 18 22 27 35 45 60 70 90 120 150 200 250 300 400 500 650 800 1000 1200 1500 2000 3000  5000 8000 12000 20000 30000
+#
+# --- ApfelxxAlphas
+ApfelxxAlphas.mur               100
+ApfelxxAlphas.AlphaQCDRef       AlphasMz
+ApfelxxAlphas.MuAlphaQCDRef     mZ
+ApfelxxAlphas.iOrd              iOrd
+ApfelxxAlphas.mc                1.4
+ApfelxxAlphas.mb                4.5
+ApfelxxAlphas.mt                175
+
+mu0                             30
+# --- Apfel++PDF 
+ApfelxxPDF.xp                   0.01
+ApfelxxPDF.muf                  100
+ApfelxxPDF.Alpha_s              ApfelxxAlphas
+ApfelxxPDF.PDFmu0               PDFQ0_HERA  #not-yet-implemented #ApfelxxAlphas  
+ApfelxxPDF.mu0                  1.3784 # mu0 #1.4
+ApfelxxPDF.iOrd                 iOrd
+ApfelxxPDF.mc                   1.4
+ApfelxxPDF.mb                   4.5
+ApfelxxPDF.mt                   175
+ApfelxxPDF.nx1                  100
+ApfelxxPDF.xmin1                1e-5
+ApfelxxPDF.intdegree1           3
+ApfelxxPDF.nx2                  60
+ApfelxxPDF.xmin2                1e-1
+ApfelxxPDF.intdegree2           3
+ApfelxxPDF.nx3                  50
+ApfelxxPDF.xmin3                6e-1
+ApfelxxPDF.intdegree3           3
+ApfelxxPDF.nx4                  50
+ApfelxxPDF.xmin4                8e-1
+ApfelxxPDF.intdegree4           3
+
+# --- ApfelxxDISCS
+ApfelxxDISCS.Alpha_s            ApfelxxAlphas #ApfelxxAlphas
+ApfelxxDISCS.PDF                ApfelxxPDF #ApfelxxPDF    
+ApfelxxDISCS.iOrd               iOrd
+ApfelxxDISCS.mc                 1.4
+ApfelxxDISCS.mb                 4.5
+ApfelxxDISCS.mt                 174
+ApfelxxDISCS.e-charge           +1
+ApfelxxDISCS.e-polarity         0
+
+
+# LHAPDF6 defaults                                                                                                                                    
+LHAPDF6.LHAPDFFile              NNPDF30_nnlo_as_0118           # Chose a PDF: CT10,  MSTW2008nlo_asmzrange, NNPDF30_as_nlo_0118  
+LHAPDF6.PDFSet                  0                               # PDFSet of the given file 
+LHAPDF6.xp                      0.01                            # default! Only used for internal calculation. 
+LHAPDF6.muf                     100                             # default! Only used for internal calculation. 
+
+# PDFQ0_LHAPDF                                                                                                                                        
+PDFQ0_LHAPDF.PDF                   LHAPDF6
+PDFQ0_LHAPDF.PDFLiCo               ApfelxxDefinition  #"LHAPDFdefinition" # "LHAPDFdefinition" #"ApfelxxDefinition" # "LHAPDFdefinition" #"ApfelDefinition" "HERAStyle"   
+PDFQ0_LHAPDF.iPDF                  0 # dummy 
+PDFQ0_LHAPDF.xp                    0.1  # dummy
+PDFQ0_LHAPDF.Q0                    mu0 #1.4  # dummy
+
+# --------------------------------------------------------------#
+# PDFQ0_HERA (full) 
+# >>tutorial/default.PDFQ0_HERA.HERAII.str
+>>/afs/desy.de/user/b/britzger/xxl/alpos/svn-neu/Alpos/Alpos/h1ewFinal/log_PDF/str.PDFQ0_HERA.12p.str
+# --------------------------------------------------------------#  
+#
+ # PDFQ0_HERA (full) 
+# log.PDF.nnlo.13p.txt
+PDFQ0_HERA.iPDF                           0         # dummy
+PDFQ0_HERA.xp                             0.1       # dummy
+PDFQ0_HERA.fs                             0.4
+
+PDFQ0_HERA.gB                 0.0646872  
+PDFQ0_HERA.gC                   5.42837  
+PDFQ0_HERA.gD                 -0.538318  
+PDFQ0_HERA.uvB                 0.735709  
+PDFQ0_HERA.uvC                   4.8858  
+PDFQ0_HERA.uvE                  13.1144  
+PDFQ0_HERA.dvB                  1.08469  
+PDFQ0_HERA.dvC                   5.1935  
+PDFQ0_HERA.UbarC                 5.2055  
+PDFQ0_HERA.DbarA               0.276521  
+PDFQ0_HERA.DbarB               -0.10249  
+PDFQ0_HERA.DbarC                11.9706  
+
+PDFQ0_HERA.gA                             0         # if gA=0, then sumrules are applies
+#PDFQ0_HERA.gB                             -0.297423
+#PDFQ0_HERA.gC                             4.00998
+#PDFQ0_HERA.gD                             -0.5
+PDFQ0_HERA.gE                             0
+PDFQ0_HERA.gF                             0
+PDFQ0_HERA.gAP                            0 # 0.37698
+PDFQ0_HERA.gBP                            0 # -0.441906
+PDFQ0_HERA.gCP                            0 # 25
+#PDFQ0_HERA.gAP                            0
+#PDFQ0_HERA.gBP                            0
+#PDFQ0_HERA.gCP                            0
+
+PDFQ0_HERA.uvA                            0          #  if uvA=0, then sumrules are applies
+#PDFQ0_HERA.uvB                            0.680333
+#PDFQ0_HERA.uvC                            4.89912
+PDFQ0_HERA.uvD                            0
+#PDFQ0_HERA.uvE                            14.8522
+PDFQ0_HERA.uvF                            0
+
+PDFQ0_HERA.dvA                            0          #  if dvA=0, then sumrules are applies
+#PDFQ0_HERA.dvB                            0.905005
+#PDFQ0_HERA.dvC                            4.71615
+PDFQ0_HERA.dvD                            0
+PDFQ0_HERA.dvE                            0.
+PDFQ0_HERA.dvF                            0
+
+PDFQ0_HERA.UbarA                          0          #  if UbarA=0, then sumrules are applies
+PDFQ0_HERA.UbarB                          PDFQ0_HERA.DbarB
+#PDFQ0_HERA.UbarC                          3.78006
+PDFQ0_HERA.UbarD                          0.1 #11.900269
+PDFQ0_HERA.UbarE                          0
+
+#PDFQ0_HERA.DbarA                          0.22796
+#PDFQ0_HERA.DbarB                          -0.134693
+#PDFQ0_HERA.DbarC                          9.95602
+PDFQ0_HERA.DbarD                          0
+PDFQ0_HERA.DbarE                          0
+
+PDFQ0_HERA.seaA                           0
+PDFQ0_HERA.seaB                           0
+PDFQ0_HERA.seaC                           0
+PDFQ0_HERA.seaD                           0
+PDFQ0_HERA.seaE                           0
+
+
+
+# --------------------------------------------------------------#
+#  Theory specializations
+# --------------------------------------------------------------#
+
+# 3.5 4.5 6.5 8.5 
+# 10 12 15 18 22 27 35 45 60 70 90 120 150 200 250 300 400 500 650 800 1000 1200 1500 2000 3000  5000 8000 12000 20000 30000
+
+ApfelxxAlphas_3p5.AlphaQCDRef    0.123
+ApfelxxPDF_3p5.Alpha_s           ApfelxxAlphas_3p5
+Q2-3p5-NCe+p-920.Alpha_s         ApfelxxAlphas_3p5
+Q2-3p5-NCe+p-820.Alpha_s         ApfelxxAlphas_3p5
+Q2-3p5-NCe+p-575.Alpha_s         ApfelxxAlphas_3p5
+Q2-3p5-NCe+p-460.Alpha_s         ApfelxxAlphas_3p5
+Q2-3p5-NCe-p-920.Alpha_s         ApfelxxAlphas_3p5
+Q2-3p5-NCe+p-920.PDF             ApfelxxPDF_3p5
+Q2-3p5-NCe+p-820.PDF             ApfelxxPDF_3p5
+Q2-3p5-NCe+p-575.PDF             ApfelxxPDF_3p5
+Q2-3p5-NCe+p-460.PDF             ApfelxxPDF_3p5
+Q2-3p5-NCe-p-920.PDF             ApfelxxPDF_3p5
+
+ApfelxxAlphas_4p5.AlphaQCDRef    0.123
+ApfelxxPDF_4p5.Alpha_s           ApfelxxAlphas_4p5
+Q2-4p5-NCe+p-920.Alpha_s         ApfelxxAlphas_4p5
+Q2-4p5-NCe+p-820.Alpha_s         ApfelxxAlphas_4p5
+Q2-4p5-NCe+p-575.Alpha_s         ApfelxxAlphas_4p5
+Q2-4p5-NCe+p-460.Alpha_s         ApfelxxAlphas_4p5
+Q2-4p5-NCe-p-920.Alpha_s         ApfelxxAlphas_4p5
+Q2-4p5-NCe+p-920.PDF             ApfelxxPDF_4p5
+Q2-4p5-NCe+p-820.PDF             ApfelxxPDF_4p5
+Q2-4p5-NCe+p-575.PDF             ApfelxxPDF_4p5
+Q2-4p5-NCe+p-460.PDF             ApfelxxPDF_4p5
+Q2-4p5-NCe-p-920.PDF             ApfelxxPDF_4p5
+
+ApfelxxAlphas_6p5.AlphaQCDRef    0.123
+ApfelxxPDF_6p5.Alpha_s           ApfelxxAlphas_6p5
+Q2-6p5-NCe+p-920.Alpha_s         ApfelxxAlphas_6p5
+Q2-6p5-NCe+p-820.Alpha_s         ApfelxxAlphas_6p5
+Q2-6p5-NCe+p-575.Alpha_s         ApfelxxAlphas_6p5
+Q2-6p5-NCe+p-460.Alpha_s         ApfelxxAlphas_6p5
+Q2-6p5-NCe-p-920.Alpha_s         ApfelxxAlphas_6p5
+Q2-6p5-NCe+p-920.PDF             ApfelxxPDF_6p5
+Q2-6p5-NCe+p-820.PDF             ApfelxxPDF_6p5
+Q2-6p5-NCe+p-575.PDF             ApfelxxPDF_6p5
+Q2-6p5-NCe+p-460.PDF             ApfelxxPDF_6p5
+Q2-6p5-NCe-p-920.PDF             ApfelxxPDF_6p5
+
+ApfelxxAlphas_8p5.AlphaQCDRef    0.123
+ApfelxxPDF_8p5.Alpha_s           ApfelxxAlphas_8p5
+Q2-8p5-NCe+p-920.Alpha_s         ApfelxxAlphas_8p5
+Q2-8p5-NCe+p-820.Alpha_s         ApfelxxAlphas_8p5
+Q2-8p5-NCe+p-575.Alpha_s         ApfelxxAlphas_8p5
+Q2-8p5-NCe+p-460.Alpha_s         ApfelxxAlphas_8p5
+Q2-8p5-NCe-p-920.Alpha_s         ApfelxxAlphas_8p5
+Q2-8p5-NCe+p-920.PDF             ApfelxxPDF_8p5
+Q2-8p5-NCe+p-820.PDF             ApfelxxPDF_8p5
+Q2-8p5-NCe+p-575.PDF             ApfelxxPDF_8p5
+Q2-8p5-NCe+p-460.PDF             ApfelxxPDF_8p5
+Q2-8p5-NCe-p-920.PDF             ApfelxxPDF_8p5
+
+
+ApfelxxAlphas_10.AlphaQCDRef    0.123
+ApfelxxPDF_10.Alpha_s           ApfelxxAlphas_10
+Q2-10-NCe+p-920.Alpha_s         ApfelxxAlphas_10
+Q2-10-NCe+p-820.Alpha_s         ApfelxxAlphas_10
+Q2-10-NCe+p-575.Alpha_s         ApfelxxAlphas_10
+Q2-10-NCe+p-460.Alpha_s         ApfelxxAlphas_10
+Q2-10-NCe-p-920.Alpha_s         ApfelxxAlphas_10
+Q2-10-NCe+p-920.PDF             ApfelxxPDF_10
+Q2-10-NCe+p-820.PDF             ApfelxxPDF_10
+Q2-10-NCe+p-575.PDF             ApfelxxPDF_10
+Q2-10-NCe+p-460.PDF             ApfelxxPDF_10
+Q2-10-NCe-p-920.PDF             ApfelxxPDF_10
+
+ApfelxxAlphas_12.AlphaQCDRef    0.123
+ApfelxxPDF_12.Alpha_s           ApfelxxAlphas_12
+Q2-12-NCe+p-920.Alpha_s         ApfelxxAlphas_12
+Q2-12-NCe+p-820.Alpha_s         ApfelxxAlphas_12
+Q2-12-NCe+p-575.Alpha_s         ApfelxxAlphas_12
+Q2-12-NCe+p-460.Alpha_s         ApfelxxAlphas_12
+Q2-12-NCe-p-920.Alpha_s         ApfelxxAlphas_12
+Q2-12-NCe+p-920.PDF             ApfelxxPDF_12
+Q2-12-NCe+p-820.PDF             ApfelxxPDF_12
+Q2-12-NCe+p-575.PDF             ApfelxxPDF_12
+Q2-12-NCe+p-460.PDF             ApfelxxPDF_12
+Q2-12-NCe-p-920.PDF             ApfelxxPDF_12
+
+ApfelxxAlphas_15.AlphaQCDRef    0.123
+ApfelxxPDF_15.Alpha_s           ApfelxxAlphas_15
+Q2-15-NCe+p-920.Alpha_s         ApfelxxAlphas_15
+Q2-15-NCe+p-820.Alpha_s         ApfelxxAlphas_15
+Q2-15-NCe+p-575.Alpha_s         ApfelxxAlphas_15
+Q2-15-NCe+p-460.Alpha_s         ApfelxxAlphas_15
+Q2-15-NCe-p-920.Alpha_s         ApfelxxAlphas_15
+Q2-15-NCe+p-920.PDF             ApfelxxPDF_15
+Q2-15-NCe+p-820.PDF             ApfelxxPDF_15
+Q2-15-NCe+p-575.PDF             ApfelxxPDF_15
+Q2-15-NCe+p-460.PDF             ApfelxxPDF_15
+Q2-15-NCe-p-920.PDF             ApfelxxPDF_15
+
+ApfelxxAlphas_18.AlphaQCDRef    0.123
+ApfelxxPDF_18.Alpha_s           ApfelxxAlphas_18
+Q2-18-NCe+p-920.Alpha_s         ApfelxxAlphas_18
+Q2-18-NCe+p-820.Alpha_s         ApfelxxAlphas_18
+Q2-18-NCe+p-575.Alpha_s         ApfelxxAlphas_18
+Q2-18-NCe+p-460.Alpha_s         ApfelxxAlphas_18
+Q2-18-NCe-p-920.Alpha_s         ApfelxxAlphas_18
+Q2-18-NCe+p-920.PDF             ApfelxxPDF_18
+Q2-18-NCe+p-820.PDF             ApfelxxPDF_18
+Q2-18-NCe+p-575.PDF             ApfelxxPDF_18
+Q2-18-NCe+p-460.PDF             ApfelxxPDF_18
+Q2-18-NCe-p-920.PDF             ApfelxxPDF_18
+
+ApfelxxAlphas_22.AlphaQCDRef    0.123
+ApfelxxPDF_22.Alpha_s           ApfelxxAlphas_22
+Q2-22-NCe+p-920.Alpha_s         ApfelxxAlphas_22
+Q2-22-NCe+p-820.Alpha_s         ApfelxxAlphas_22
+Q2-22-NCe+p-575.Alpha_s         ApfelxxAlphas_22
+Q2-22-NCe+p-460.Alpha_s         ApfelxxAlphas_22
+Q2-22-NCe-p-920.Alpha_s         ApfelxxAlphas_22
+Q2-22-NCe+p-920.PDF             ApfelxxPDF_22
+Q2-22-NCe+p-820.PDF             ApfelxxPDF_22
+Q2-22-NCe+p-575.PDF             ApfelxxPDF_22
+Q2-22-NCe+p-460.PDF             ApfelxxPDF_22
+Q2-22-NCe-p-920.PDF             ApfelxxPDF_22
+
+ApfelxxAlphas_27.AlphaQCDRef    0.123
+ApfelxxPDF_27.Alpha_s           ApfelxxAlphas_27
+Q2-27-NCe+p-920.Alpha_s         ApfelxxAlphas_27
+Q2-27-NCe+p-820.Alpha_s         ApfelxxAlphas_27
+Q2-27-NCe+p-575.Alpha_s         ApfelxxAlphas_27
+Q2-27-NCe+p-460.Alpha_s         ApfelxxAlphas_27
+Q2-27-NCe-p-920.Alpha_s         ApfelxxAlphas_27
+Q2-27-CCe+p-920.Alpha_s         ApfelxxAlphas_27    
+Q2-27-CCe-p-920.Alpha_s         ApfelxxAlphas_27
+Q2-27-NCe+p-920.PDF             ApfelxxPDF_27
+Q2-27-NCe+p-820.PDF             ApfelxxPDF_27
+Q2-27-NCe+p-575.PDF             ApfelxxPDF_27
+Q2-27-NCe+p-460.PDF             ApfelxxPDF_27
+Q2-27-NCe-p-920.PDF             ApfelxxPDF_27
+Q2-27-CCe+p-920.PDF             ApfelxxPDF_27    
+Q2-27-CCe-p-920.PDF             ApfelxxPDF_27
+
+ApfelxxAlphas_35.AlphaQCDRef    0.123
+ApfelxxPDF_35.Alpha_s           ApfelxxAlphas_35
+Q2-35-NCe+p-920.Alpha_s         ApfelxxAlphas_35
+Q2-35-NCe+p-820.Alpha_s         ApfelxxAlphas_35
+Q2-35-NCe+p-575.Alpha_s         ApfelxxAlphas_35
+Q2-35-NCe+p-460.Alpha_s         ApfelxxAlphas_35
+Q2-35-NCe-p-920.Alpha_s         ApfelxxAlphas_35
+Q2-35-NCe+p-920.PDF             ApfelxxPDF_35
+Q2-35-NCe+p-820.PDF             ApfelxxPDF_35
+Q2-35-NCe+p-575.PDF             ApfelxxPDF_35
+Q2-35-NCe+p-460.PDF             ApfelxxPDF_35
+Q2-35-NCe-p-920.PDF             ApfelxxPDF_35
+
+ApfelxxAlphas_45.AlphaQCDRef    0.123
+ApfelxxPDF_45.Alpha_s           ApfelxxAlphas_45
+Q2-45-NCe+p-920.Alpha_s         ApfelxxAlphas_45
+Q2-45-NCe+p-820.Alpha_s         ApfelxxAlphas_45
+Q2-45-NCe+p-575.Alpha_s         ApfelxxAlphas_45
+Q2-45-NCe+p-460.Alpha_s         ApfelxxAlphas_45
+Q2-45-NCe-p-920.Alpha_s         ApfelxxAlphas_45
+Q2-45-NCe+p-920.PDF             ApfelxxPDF_45
+Q2-45-NCe+p-820.PDF             ApfelxxPDF_45
+Q2-45-NCe+p-575.PDF             ApfelxxPDF_45
+Q2-45-NCe+p-460.PDF             ApfelxxPDF_45
+Q2-45-NCe-p-920.PDF             ApfelxxPDF_45
+
+ApfelxxAlphas_60.AlphaQCDRef    0.123
+ApfelxxPDF_60.Alpha_s           ApfelxxAlphas_60
+Q2-60-NCe+p-920.Alpha_s         ApfelxxAlphas_60
+Q2-60-NCe+p-820.Alpha_s         ApfelxxAlphas_60
+Q2-60-NCe+p-575.Alpha_s         ApfelxxAlphas_60
+Q2-60-NCe+p-460.Alpha_s         ApfelxxAlphas_60
+Q2-60-NCe-p-920.Alpha_s         ApfelxxAlphas_60
+Q2-60-NCe+p-920.PDF             ApfelxxPDF_60
+Q2-60-NCe+p-820.PDF             ApfelxxPDF_60
+Q2-60-NCe+p-575.PDF             ApfelxxPDF_60
+Q2-60-NCe+p-460.PDF             ApfelxxPDF_60
+Q2-60-NCe-p-920.PDF             ApfelxxPDF_60
+
+ApfelxxAlphas_70.AlphaQCDRef    0.123
+ApfelxxPDF_70.Alpha_s           ApfelxxAlphas_70
+Q2-70-NCe+p-920.Alpha_s         ApfelxxAlphas_70
+Q2-70-NCe+p-820.Alpha_s         ApfelxxAlphas_70
+Q2-70-NCe+p-575.Alpha_s         ApfelxxAlphas_70
+Q2-70-NCe+p-460.Alpha_s         ApfelxxAlphas_70
+Q2-70-NCe-p-920.Alpha_s         ApfelxxAlphas_70
+Q2-70-NCe+p-920.PDF             ApfelxxPDF_70
+Q2-70-NCe+p-820.PDF             ApfelxxPDF_70
+Q2-70-NCe+p-575.PDF             ApfelxxPDF_70
+Q2-70-NCe+p-460.PDF             ApfelxxPDF_70
+Q2-70-NCe-p-920.PDF             ApfelxxPDF_70
+
+ApfelxxAlphas_90.AlphaQCDRef    0.123
+ApfelxxPDF_90.Alpha_s           ApfelxxAlphas_90
+Q2-90-NCe+p-920.Alpha_s         ApfelxxAlphas_90
+Q2-90-NCe+p-820.Alpha_s         ApfelxxAlphas_90
+Q2-90-NCe+p-575.Alpha_s         ApfelxxAlphas_90
+Q2-90-NCe+p-460.Alpha_s         ApfelxxAlphas_90
+Q2-90-NCe-p-920.Alpha_s         ApfelxxAlphas_90
+Q2-90-NCe+p-920.PDF             ApfelxxPDF_90
+Q2-90-NCe+p-820.PDF             ApfelxxPDF_90
+Q2-90-NCe+p-575.PDF             ApfelxxPDF_90
+Q2-90-NCe+p-460.PDF             ApfelxxPDF_90
+Q2-90-NCe-p-920.PDF             ApfelxxPDF_90
+
+ApfelxxAlphas_120.AlphaQCDRef    0.123
+ApfelxxPDF_120.Alpha_s           ApfelxxAlphas_120
+Q2-120-NCe+p-920.Alpha_s         ApfelxxAlphas_120
+Q2-120-NCe+p-820.Alpha_s         ApfelxxAlphas_120
+Q2-120-NCe+p-575.Alpha_s         ApfelxxAlphas_120
+Q2-120-NCe+p-460.Alpha_s         ApfelxxAlphas_120
+Q2-120-NCe-p-920.Alpha_s         ApfelxxAlphas_120
+Q2-120-NCe+p-920.PDF             ApfelxxPDF_120
+Q2-120-NCe+p-820.PDF             ApfelxxPDF_120
+Q2-120-NCe+p-575.PDF             ApfelxxPDF_120
+Q2-120-NCe+p-460.PDF             ApfelxxPDF_120
+Q2-120-NCe-p-920.PDF             ApfelxxPDF_120
+
+ApfelxxAlphas_150.AlphaQCDRef    0.123
+ApfelxxPDF_150.Alpha_s           ApfelxxAlphas_150
+Q2-150-NCe+p-920.Alpha_s         ApfelxxAlphas_150
+Q2-150-NCe+p-820.Alpha_s         ApfelxxAlphas_150
+Q2-150-NCe+p-575.Alpha_s         ApfelxxAlphas_150
+Q2-150-NCe+p-460.Alpha_s         ApfelxxAlphas_150
+Q2-150-NCe-p-920.Alpha_s         ApfelxxAlphas_150
+Q2-150-NCe+p-920.PDF             ApfelxxPDF_150
+Q2-150-NCe+p-820.PDF             ApfelxxPDF_150
+Q2-150-NCe+p-575.PDF             ApfelxxPDF_150
+Q2-150-NCe+p-460.PDF             ApfelxxPDF_150
+Q2-150-NCe-p-920.PDF             ApfelxxPDF_150
+
+ApfelxxAlphas_200.AlphaQCDRef    0.123
+ApfelxxPDF_200.Alpha_s           ApfelxxAlphas_200
+Q2-200-NCe+p-920.Alpha_s         ApfelxxAlphas_200
+Q2-200-NCe+p-820.Alpha_s         ApfelxxAlphas_200
+Q2-200-NCe+p-575.Alpha_s         ApfelxxAlphas_200
+Q2-200-NCe+p-460.Alpha_s         ApfelxxAlphas_200
+Q2-200-NCe-p-920.Alpha_s         ApfelxxAlphas_200
+Q2-200-NCe+p-920.PDF             ApfelxxPDF_200
+Q2-200-NCe+p-820.PDF             ApfelxxPDF_200
+Q2-200-NCe+p-575.PDF             ApfelxxPDF_200
+Q2-200-NCe+p-460.PDF             ApfelxxPDF_200
+Q2-200-NCe-p-920.PDF             ApfelxxPDF_200
+
+ApfelxxAlphas_250.AlphaQCDRef    0.123
+ApfelxxPDF_250.Alpha_s           ApfelxxAlphas_250
+Q2-250-NCe+p-920.Alpha_s         ApfelxxAlphas_250
+Q2-250-NCe+p-820.Alpha_s         ApfelxxAlphas_250
+Q2-250-NCe+p-575.Alpha_s         ApfelxxAlphas_250
+Q2-250-NCe+p-460.Alpha_s         ApfelxxAlphas_250
+Q2-250-NCe-p-920.Alpha_s         ApfelxxAlphas_250
+Q2-250-NCe+p-920.PDF             ApfelxxPDF_250
+Q2-250-NCe+p-820.PDF             ApfelxxPDF_250
+Q2-250-NCe+p-575.PDF             ApfelxxPDF_250
+Q2-250-NCe+p-460.PDF             ApfelxxPDF_250
+Q2-250-NCe-p-920.PDF             ApfelxxPDF_250
+
+
+
+ApfelxxAlphas_300.AlphaQCDRef    0.123
+ApfelxxPDF_300.Alpha_s           ApfelxxAlphas_300
+Q2-300-NCe+p-920.Alpha_s         ApfelxxAlphas_300
+Q2-300-NCe+p-820.Alpha_s         ApfelxxAlphas_300
+Q2-300-NCe+p-575.Alpha_s         ApfelxxAlphas_300
+Q2-300-NCe+p-460.Alpha_s         ApfelxxAlphas_300
+Q2-300-NCe-p-920.Alpha_s         ApfelxxAlphas_300
+Q2-300-CCe+p-920.Alpha_s         ApfelxxAlphas_300    
+Q2-300-CCe-p-920.Alpha_s         ApfelxxAlphas_300
+Q2-300-NCe+p-920.PDF             ApfelxxPDF_300
+Q2-300-NCe+p-820.PDF             ApfelxxPDF_300
+Q2-300-NCe+p-575.PDF             ApfelxxPDF_300
+Q2-300-NCe+p-460.PDF             ApfelxxPDF_300
+Q2-300-NCe-p-920.PDF             ApfelxxPDF_300
+Q2-300-CCe+p-920.PDF             ApfelxxPDF_300    
+Q2-300-CCe-p-920.PDF             ApfelxxPDF_300
+
+ApfelxxAlphas_400.AlphaQCDRef    0.123
+ApfelxxPDF_400.Alpha_s           ApfelxxAlphas_400
+Q2-400-NCe+p-920.Alpha_s         ApfelxxAlphas_400
+Q2-400-NCe+p-820.Alpha_s         ApfelxxAlphas_400
+Q2-400-NCe+p-575.Alpha_s         ApfelxxAlphas_400
+Q2-400-NCe+p-460.Alpha_s         ApfelxxAlphas_400
+Q2-400-NCe-p-920.Alpha_s         ApfelxxAlphas_400
+Q2-400-CCe+p-920.Alpha_s         ApfelxxAlphas_400    
+Q2-400-CCe-p-920.Alpha_s         ApfelxxAlphas_400
+Q2-400-NCe+p-920.PDF             ApfelxxPDF_400
+Q2-400-NCe+p-820.PDF             ApfelxxPDF_400
+Q2-400-NCe+p-575.PDF             ApfelxxPDF_400
+Q2-400-NCe+p-460.PDF             ApfelxxPDF_400
+Q2-400-NCe-p-920.PDF             ApfelxxPDF_400
+Q2-400-CCe+p-920.PDF             ApfelxxPDF_400    
+Q2-400-CCe-p-920.PDF             ApfelxxPDF_400
+
+ApfelxxAlphas_500.AlphaQCDRef    0.123
+ApfelxxPDF_500.Alpha_s           ApfelxxAlphas_500
+Q2-500-NCe+p-920.Alpha_s         ApfelxxAlphas_500
+Q2-500-NCe+p-820.Alpha_s         ApfelxxAlphas_500
+Q2-500-NCe+p-575.Alpha_s         ApfelxxAlphas_500
+Q2-500-NCe+p-460.Alpha_s         ApfelxxAlphas_500
+Q2-500-NCe-p-920.Alpha_s         ApfelxxAlphas_500
+Q2-500-CCe+p-920.Alpha_s         ApfelxxAlphas_500    
+Q2-500-CCe-p-920.Alpha_s         ApfelxxAlphas_500
+Q2-500-NCe+p-920.PDF             ApfelxxPDF_500
+Q2-500-NCe+p-820.PDF             ApfelxxPDF_500
+Q2-500-NCe+p-575.PDF             ApfelxxPDF_500
+Q2-500-NCe+p-460.PDF             ApfelxxPDF_500
+Q2-500-NCe-p-920.PDF             ApfelxxPDF_500
+Q2-500-CCe+p-920.PDF             ApfelxxPDF_500    
+Q2-500-CCe-p-920.PDF             ApfelxxPDF_500
+
+ApfelxxAlphas_650.AlphaQCDRef    0.123
+ApfelxxPDF_650.Alpha_s           ApfelxxAlphas_650
+Q2-650-NCe+p-920.Alpha_s         ApfelxxAlphas_650
+Q2-650-NCe+p-820.Alpha_s         ApfelxxAlphas_650
+Q2-650-NCe+p-575.Alpha_s         ApfelxxAlphas_650
+Q2-650-NCe+p-460.Alpha_s         ApfelxxAlphas_650
+Q2-650-NCe-p-920.Alpha_s         ApfelxxAlphas_650
+Q2-650-CCe+p-920.Alpha_s         ApfelxxAlphas_650    
+Q2-650-CCe-p-920.Alpha_s         ApfelxxAlphas_650
+Q2-650-NCe+p-920.PDF             ApfelxxPDF_650
+Q2-650-NCe+p-820.PDF             ApfelxxPDF_650
+Q2-650-NCe+p-575.PDF             ApfelxxPDF_650
+Q2-650-NCe+p-460.PDF             ApfelxxPDF_650
+Q2-650-NCe-p-920.PDF             ApfelxxPDF_650
+Q2-650-CCe+p-920.PDF             ApfelxxPDF_650    
+Q2-650-CCe-p-920.PDF             ApfelxxPDF_650
+
+ApfelxxAlphas_800.AlphaQCDRef    0.123
+ApfelxxPDF_800.Alpha_s           ApfelxxAlphas_800
+Q2-800-NCe+p-920.Alpha_s         ApfelxxAlphas_800
+Q2-800-NCe+p-820.Alpha_s         ApfelxxAlphas_800
+Q2-800-NCe+p-575.Alpha_s         ApfelxxAlphas_800
+Q2-800-NCe+p-460.Alpha_s         ApfelxxAlphas_800
+Q2-800-NCe-p-920.Alpha_s         ApfelxxAlphas_800
+Q2-800-CCe+p-920.Alpha_s         ApfelxxAlphas_800    
+Q2-800-CCe-p-920.Alpha_s         ApfelxxAlphas_800
+Q2-800-NCe+p-920.PDF             ApfelxxPDF_800
+Q2-800-NCe+p-820.PDF             ApfelxxPDF_800
+Q2-800-NCe+p-575.PDF             ApfelxxPDF_800
+Q2-800-NCe+p-460.PDF             ApfelxxPDF_800
+Q2-800-NCe-p-920.PDF             ApfelxxPDF_800
+Q2-800-CCe+p-920.PDF             ApfelxxPDF_800    
+Q2-800-CCe-p-920.PDF             ApfelxxPDF_800
+
+ApfelxxAlphas_1000.AlphaQCDRef    0.123
+ApfelxxPDF_1000.Alpha_s           ApfelxxAlphas_1000
+Q2-1000-NCe+p-920.Alpha_s         ApfelxxAlphas_1000
+Q2-1000-NCe+p-820.Alpha_s         ApfelxxAlphas_1000
+Q2-1000-NCe-p-920.Alpha_s         ApfelxxAlphas_1000
+Q2-1000-CCe+p-920.Alpha_s         ApfelxxAlphas_1000    
+Q2-1000-CCe-p-920.Alpha_s         ApfelxxAlphas_1000
+Q2-1000-NCe+p-920.PDF             ApfelxxPDF_1000
+Q2-1000-NCe+p-820.PDF             ApfelxxPDF_1000
+Q2-1000-NCe-p-920.PDF             ApfelxxPDF_1000
+Q2-1000-CCe+p-920.PDF             ApfelxxPDF_1000    
+Q2-1000-CCe-p-920.PDF             ApfelxxPDF_1000
+
+ApfelxxAlphas_1200.AlphaQCDRef    0.123
+ApfelxxPDF_1200.Alpha_s           ApfelxxAlphas_1200
+Q2-1200-NCe+p-920.Alpha_s         ApfelxxAlphas_1200
+Q2-1200-NCe+p-820.Alpha_s         ApfelxxAlphas_1200
+Q2-1200-NCe-p-920.Alpha_s         ApfelxxAlphas_1200
+Q2-1200-CCe+p-920.Alpha_s         ApfelxxAlphas_1200    
+Q2-1200-CCe-p-920.Alpha_s         ApfelxxAlphas_1200
+Q2-1200-NCe+p-920.PDF             ApfelxxPDF_1200
+Q2-1200-NCe+p-820.PDF             ApfelxxPDF_1200
+Q2-1200-NCe-p-920.PDF             ApfelxxPDF_1200
+Q2-1200-CCe+p-920.PDF             ApfelxxPDF_1200    
+Q2-1200-CCe-p-920.PDF             ApfelxxPDF_1200
+
+ApfelxxAlphas_1500.AlphaQCDRef    0.123
+ApfelxxPDF_1500.Alpha_s           ApfelxxAlphas_1500
+Q2-1500-NCe+p-920.Alpha_s         ApfelxxAlphas_1500
+Q2-1500-NCe+p-820.Alpha_s         ApfelxxAlphas_1500
+Q2-1500-NCe-p-920.Alpha_s         ApfelxxAlphas_1500
+Q2-1500-CCe+p-920.Alpha_s         ApfelxxAlphas_1500    
+Q2-1500-CCe-p-920.Alpha_s         ApfelxxAlphas_1500
+Q2-1500-NCe+p-920.PDF             ApfelxxPDF_1500
+Q2-1500-NCe+p-820.PDF             ApfelxxPDF_1500
+Q2-1500-NCe-p-920.PDF             ApfelxxPDF_1500
+Q2-1500-CCe+p-920.PDF             ApfelxxPDF_1500    
+Q2-1500-CCe-p-920.PDF             ApfelxxPDF_1500
+
+ApfelxxAlphas_2000.AlphaQCDRef    0.123
+ApfelxxPDF_2000.Alpha_s           ApfelxxAlphas_2000
+Q2-2000-NCe+p-920.Alpha_s         ApfelxxAlphas_2000
+Q2-2000-NCe+p-820.Alpha_s         ApfelxxAlphas_2000
+Q2-2000-NCe-p-920.Alpha_s         ApfelxxAlphas_2000
+Q2-2000-CCe+p-920.Alpha_s         ApfelxxAlphas_2000    
+Q2-2000-CCe-p-920.Alpha_s         ApfelxxAlphas_2000
+Q2-2000-NCe+p-920.PDF             ApfelxxPDF_2000
+Q2-2000-NCe+p-820.PDF             ApfelxxPDF_2000
+Q2-2000-NCe-p-920.PDF             ApfelxxPDF_2000
+Q2-2000-CCe+p-920.PDF             ApfelxxPDF_2000    
+Q2-2000-CCe-p-920.PDF             ApfelxxPDF_2000
+
+ApfelxxAlphas_3000.AlphaQCDRef    0.123
+ApfelxxPDF_3000.Alpha_s           ApfelxxAlphas_3000
+Q2-3000-NCe+p-920.Alpha_s         ApfelxxAlphas_3000
+Q2-3000-NCe+p-820.Alpha_s         ApfelxxAlphas_3000
+Q2-3000-NCe-p-920.Alpha_s         ApfelxxAlphas_3000
+Q2-3000-CCe+p-920.Alpha_s         ApfelxxAlphas_3000    
+Q2-3000-CCe-p-920.Alpha_s         ApfelxxAlphas_3000
+Q2-3000-NCe+p-920.PDF             ApfelxxPDF_3000
+Q2-3000-NCe+p-820.PDF             ApfelxxPDF_3000
+Q2-3000-NCe-p-920.PDF             ApfelxxPDF_3000
+Q2-3000-CCe+p-920.PDF             ApfelxxPDF_3000    
+Q2-3000-CCe-p-920.PDF             ApfelxxPDF_3000
+
+ApfelxxAlphas_5000.AlphaQCDRef    0.123
+ApfelxxPDF_5000.Alpha_s           ApfelxxAlphas_5000
+Q2-5000-NCe+p-920.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-NCe+p-820.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-NCe+p-575.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-NCe+p-460.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-NCe-p-920.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-CCe+p-920.Alpha_s         ApfelxxAlphas_5000    
+Q2-5000-CCe-p-920.Alpha_s         ApfelxxAlphas_5000
+Q2-5000-NCe+p-920.PDF             ApfelxxPDF_5000
+Q2-5000-NCe+p-820.PDF             ApfelxxPDF_5000
+Q2-5000-NCe+p-575.PDF             ApfelxxPDF_5000
+Q2-5000-NCe+p-460.PDF             ApfelxxPDF_5000
+Q2-5000-NCe-p-920.PDF             ApfelxxPDF_5000
+Q2-5000-CCe+p-920.PDF             ApfelxxPDF_5000    
+Q2-5000-CCe-p-920.PDF             ApfelxxPDF_5000
+
+ApfelxxAlphas_8000.AlphaQCDRef    0.123
+ApfelxxPDF_8000.Alpha_s           ApfelxxAlphas_8000
+Q2-8000-NCe+p-920.Alpha_s         ApfelxxAlphas_8000
+Q2-8000-NCe+p-820.Alpha_s         ApfelxxAlphas_8000
+Q2-8000-NCe-p-920.Alpha_s         ApfelxxAlphas_8000
+Q2-8000-CCe+p-920.Alpha_s         ApfelxxAlphas_8000    
+Q2-8000-CCe-p-920.Alpha_s         ApfelxxAlphas_8000
+Q2-8000-NCe+p-920.PDF             ApfelxxPDF_8000
+Q2-8000-NCe+p-820.PDF             ApfelxxPDF_8000
+Q2-8000-NCe-p-920.PDF             ApfelxxPDF_8000
+Q2-8000-CCe+p-920.PDF             ApfelxxPDF_8000    
+Q2-8000-CCe-p-920.PDF             ApfelxxPDF_8000
+
+ApfelxxAlphas_12000.AlphaQCDRef    0.123
+ApfelxxPDF_12000.Alpha_s           ApfelxxAlphas_12000
+Q2-12000-NCe+p-920.Alpha_s         ApfelxxAlphas_12000
+Q2-12000-NCe+p-820.Alpha_s         ApfelxxAlphas_12000
+Q2-12000-NCe-p-920.Alpha_s         ApfelxxAlphas_12000
+Q2-12000-CCe+p-920.Alpha_s         ApfelxxAlphas_12000    
+Q2-12000-CCe-p-920.Alpha_s         ApfelxxAlphas_12000
+Q2-12000-NCe+p-920.PDF             ApfelxxPDF_12000
+Q2-12000-NCe+p-820.PDF             ApfelxxPDF_12000
+Q2-12000-NCe-p-920.PDF             ApfelxxPDF_12000
+Q2-12000-CCe+p-920.PDF             ApfelxxPDF_12000    
+Q2-12000-CCe-p-920.PDF             ApfelxxPDF_12000
+
+ApfelxxAlphas_20000.AlphaQCDRef    0.123
+ApfelxxPDF_20000.Alpha_s           ApfelxxAlphas_20000
+Q2-20000-NCe+p-920.Alpha_s         ApfelxxAlphas_20000
+Q2-20000-NCe+p-820.Alpha_s         ApfelxxAlphas_20000
+Q2-20000-NCe-p-920.Alpha_s         ApfelxxAlphas_20000
+Q2-20000-CCe+p-920.Alpha_s         ApfelxxAlphas_20000    
+Q2-20000-CCe-p-920.Alpha_s         ApfelxxAlphas_20000
+Q2-20000-NCe+p-920.PDF             ApfelxxPDF_20000
+Q2-20000-NCe+p-820.PDF             ApfelxxPDF_20000
+Q2-20000-NCe-p-920.PDF             ApfelxxPDF_20000
+Q2-20000-CCe+p-920.PDF             ApfelxxPDF_20000    
+Q2-20000-CCe-p-920.PDF             ApfelxxPDF_20000
+
+ApfelxxAlphas_30000.AlphaQCDRef    0.123
+ApfelxxPDF_30000.Alpha_s           ApfelxxAlphas_30000
+Q2-30000-NCe+p-920.Alpha_s         ApfelxxAlphas_30000
+Q2-30000-NCe+p-820.Alpha_s         ApfelxxAlphas_30000
+Q2-30000-NCe-p-920.Alpha_s         ApfelxxAlphas_30000
+Q2-30000-CCe+p-920.Alpha_s         ApfelxxAlphas_30000    
+Q2-30000-CCe-p-920.Alpha_s         ApfelxxAlphas_30000
+Q2-30000-NCe+p-920.PDF             ApfelxxPDF_30000
+Q2-30000-NCe+p-820.PDF             ApfelxxPDF_30000
+Q2-30000-NCe-p-920.PDF             ApfelxxPDF_30000
+Q2-30000-CCe+p-920.PDF             ApfelxxPDF_30000    
+Q2-30000-CCe-p-920.PDF             ApfelxxPDF_30000
+
+Q2-50000-NCe-p-920.PDF             ApfelxxPDF_30000
+Q2-50000-NCe-p-920.Alpha_s         ApfelxxAlphas_30000
+
+
+
+}}} # end of 'AlposTheory' namespace
+# --------------------------------------------------------------#
+
+
+
+

@@ -1,0 +1,156 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{amsmath,amssymb,bm,makeidx,subfigure}
+\usepackage[italian,english]{babel}
+\usepackage[center,small]{caption}[2007/01/07]
+\usepackage{fancyhdr}
+\usepackage{color}
+
+\begin{document}
+
+\section{Measuring the running of $\alpha_s$ from HERA DIS inclusive
+  data}
+
+In this set of notes we collect a number of ideas to measure the
+running of the strong coupling $\alpha_s$ from the HERA I+II combined
+DIS inclusive data. This will be carried out by a simultaneous fit of
+PDFs to this data. Throughout these notes cross sections are assumed
+to be renormalised and factorised in the $\overline{\mbox{MS}}$
+scheme. We will focus on two main strategies that should lead to
+consistent results as they are both based on QCD factorisation.
+
+\subsection{Strategy one}
+
+We start by observing that in fit of PDFs the strong coupling
+$\alpha_s$ enters both the computation of the partonic cross sections,
+which are perturbative quantities and thus are typically expressed as
+truncated series in powers of $\alpha_s$, and the DGLAP evolution
+where terms of the form $\alpha_s^n\ln^n(Q^2/Q_0^2)$ are resummed to
+all orders. Focusing on DIS, the prediction for a certain cross
+section in terms of initial scale PDFs is given by:
+\begin{equation}\label{eq:preditions}
+  \sigma(Q) = \hat{\sigma}(Q)\otimes\Gamma(Q,Q_0)\otimes f_0\,.
+\end{equation}
+In Eq.~(\ref{eq:preditions}) the partonic cross section $\hat{\sigma}$
+allows for the perturbative expansion:
+\begin{equation}\label{eq:exppartxsec}
+  \hat{\sigma}(Q) = \hat{\sigma}_0 +\hat\alpha_s
+  \hat{\sigma}_1 + \hat\alpha_s^2 \hat{\sigma}_2 + \dots
+\end{equation}
+where we have defined:
+\begin{equation}
+  \hat\alpha_s \equiv \alpha_s(Q)\quad\Longrightarrow \quad \hat{\sigma}(Q)
+  \equiv \hat\sigma(\hat\alpha_s)\,.
+\end{equation}
+It should be noticed that the single perturbative terms
+$\hat{\sigma}_i$ do depend explicitly on $Q$ through the ratios
+$Q/\mu_R$, $Q/\mu_F$, and $Q/m_H$ but this is not relevant in the
+following discussion because we are only looking at the dependence on
+$\alpha_s$. The evolution kernel $\Gamma$ in Eq.~(\ref{eq:preditions})
+is instead determined by solving the DGLAP equation:
+\begin{equation}\label{eq:DGLAPEvOp}
+Q^2\frac{d}{dQ^2}\Gamma(Q,Q_0) =
+P(\alpha_s(Q))\otimes \Gamma(Q,Q_0)\,.
+\end{equation}
+with $P$ being the DGLAP splitting functions which are perturbatively
+computable and are currently known to $\mathcal{O}(\alpha_s^3)$,
+$i.e.$ NNLO accuracy. Using the ``obvious'' boundary condition:
+\begin{equation}
+\Gamma(Q_0,Q_0) = 1\,,
+\end{equation}
+one can schematically write the solution to Eq.~(\ref{eq:DGLAPEvOp})
+as follows:
+\begin{equation}\label{eq:EvolOp}
+\Gamma(Q,Q_0) = \exp\left[\int_{\ln Q_0^2}^{\ln Q^2}P(\alpha_s(Q'))\,d\ln Q'^2\right]\,.
+\end{equation}
+It is clear from Eq.~(\ref{eq:EvolOp}) that the evolution operator
+$\Gamma$ depends on all the values that $\alpha_s$ takes between $Q_0$
+and $Q$. In other words, we need to know how $\alpha_s$ evolves in
+this range. But this only depends on one single input that is the
+value of $\alpha_s$ at some reference scale. Such value can be chosen
+to be $\hat\alpha_s$ that thus means:
+\begin{equation}
+\Gamma\equiv \Gamma(\hat\alpha_s)\,,
+\end{equation}
+where we have omitted the dependence on $Q$ and $Q_0$ that we consider
+fixed here. Finally, we notice that $f_0$ represents PDFs at the
+initial scale. Since this quantity by definition does not undergo any
+evolution, it only depends on the (fixed) initial scale $Q_0$ and not
+on the value of $\alpha_s$ in $Q_0$. As a consequence, this quantity
+can also be considered constant.
+
+In the end of the day we can write Eq.~(\ref{eq:preditions}) as:
+\begin{equation}\label{eq:preditions1}
+  \sigma(Q) = \hat{\sigma}(\hat\alpha_s)\otimes\Gamma(\hat\alpha_s)\otimes f_0\equiv\sigma(\hat\alpha_s)\,,
+\end{equation}
+that is to say that the prediction for $\sigma(Q)$ only depends on
+$\hat\alpha_s$.
+
+Now, suppose to have a set of measurements corresponding to a number
+of energies $Q_i$:
+\begin{equation}
+  \{\sigma_i = \sigma(Q_i) = \sigma(\hat\alpha_{s,i})\}\,.
+\end{equation}
+In principle, assuming that everything else is fixed ($i.e.$
+perturbative order, PDFs, heavy quark masses, etc.) one can use each
+of these measurements to determine $\hat\alpha_{s,i}$. This is
+equivalent to determine the value of $\alpha_s$ for the different
+values of the scale $Q_i$ which in turn means determining the running
+of the strong coupling. There is a caveat though. In particular,
+Eq.~(\ref{eq:EvolOp}) assumes that the running of the strong couplings
+follows the RGE evolution. In fact, what we really aim at here is not
+a direct measurement of the running of $\alpha_s$ but rather whether
+the scaling violations of the measurements we are considering, which
+are driven by the strong coupling, are consistent with the QCD
+expectations.
+
+As is well know, there is a close interplay between the value of
+$\alpha_s$ and PDFs. Consequently, extracting the values of
+$\hat\alpha_{s,i}$ keeping PDFs fixed represents an approximation that
+might not be appropriate. To overcome this problem, one can
+parametrize the initial scale PDFs $f_0$ by means of one of the usual
+functional forms:
+\begin{equation}
+f_0\equiv f_0(\{a_j\})
+\end{equation}
+and fit the free parameters $a_j$ to data as commonly done in the
+standard PDF determinations. As clear from Eq.~(\ref{eq:preditions1}),
+$f_0$ is common to all predictions for $\sigma_i$ and thus one can no
+longer determine the value of $\hat\alpha_{s,i}$ from $\sigma_i$ only
+independently of the other measurements because now there is a
+cross-talk between predictions due to $f_0$. Therefore, one needs to
+perform a ``global fit'' to the set of measurements $\{\sigma_i\}$ and
+the result of such a fit would be the determination of the two sets of
+free parameters:
+\begin{equation}\label{eq:freeparams}
+\{\hat\alpha_{s,i}\}\quad\mbox{and}\quad\{a_j\}\,.
+\end{equation}
+This will (should) allow us to perform a simultaneous determination of
+PDFs and the running of $\alpha_s$ avoiding the bias that a
+determination of the running of the strong coupling obtained with
+fixed PDFs might lead to.
+
+It is interesting to notice that the approach described above
+represents a generalisation of the standard procedure. As a matter of
+fact, the reference values $\hat\alpha_{s,i}$ do not have to be
+necessarily equal $\alpha_s(Q_i)$, but they can all be take to be
+equal to the coupling to any arbitrary scale. The value of $\alpha_s$
+at any scale $Q$ can then be obtained by evolution. In particular, one
+can take all $\hat\alpha_{s,i}$ to be equal to one particular
+value. This is what is typically done to determine the value of
+$\alpha_s(M_Z)$, that is by simply setting:
+\begin{equation}
+\hat\alpha_{s,i} = \alpha_s(M_Z)
+\end{equation}
+for all measurements included in the fit. This clearly reduces the set
+of free parameters to be determined the a global fit from
+Eq.~(\ref{eq:freeparams}) to:
+\begin{equation}
+\alpha_s(M_Z)\quad\mbox{and}\quad\{a_j\}\,.
+\end{equation}
+While on the one hand this provides a simplification, this comes at
+the price of assuming that the RGE running of the strong coupling is
+used in a \textit{maximal} way also to completely determine the value
+of the partonic cross section in Eq.~(\ref{eq:exppartxsec}) at the
+relevant scale of the single measurements.
+
+\end{document}
